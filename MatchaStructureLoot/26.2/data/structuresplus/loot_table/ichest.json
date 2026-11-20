@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "only_compatible": true
+            }
+          ],
+          "value": "matcha:equipment/copper/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone",
+          "quality": 2
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "structuresplus"
+      ]
+    }
+  ]
+}

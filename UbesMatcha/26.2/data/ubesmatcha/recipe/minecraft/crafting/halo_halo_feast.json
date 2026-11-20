@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "ubesdelight:halo_halo",
+    "B": "minecraft:beetroot_soup"
+  },
+  "pattern": [
+    "   ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "id": "ubesdelight:halo_halo_feast"
+  }
+}

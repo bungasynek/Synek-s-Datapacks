@@ -1,0 +1,196 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 10,
+              "treasure": true
+            }
+          ],
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ],
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/leather/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/leather/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/leather/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/leather/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "matcha:equipment/chainmail/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "matcha:equipment/chainmail/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "matcha:equipment/chainmail/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ],
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ],
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ],
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 20,
+              "treasure": true
+            }
+          ],
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:shield"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              }
+            }
+          ],
+          "name": "minecraft:raw_iron"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              }
+            }
+          ],
+          "name": "minecraft:charcoal"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "t_and_t"
+      ]
+    }
+  ]
+}

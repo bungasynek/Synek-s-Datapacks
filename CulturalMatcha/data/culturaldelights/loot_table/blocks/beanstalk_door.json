@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition":
+        {
+          "type": "minecraft:survives_explosion"
+        }
+      ,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "condition":
+            {
+              "blocks": "culturaldelights:beanstalk_door",
+              "type": "minecraft:match_block",
+              "state": {
+                "half": "lower"
+              }
+            }
+          ,
+          "name": "culturaldelights:beanstalk_door"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "culturaldelights:blocks/beanstalk_door"
+}

@@ -1,0 +1,407 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:skull_banner_pattern",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "skeleton_skull",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ominous_bottle",
+          "weight": 5,
+          "modifier": {
+            "amplifier": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 0
+            },
+            "type": "set_ominous_bottle_amplifier"
+          }
+        },
+        {
+          "type": "item",
+          "name": "diamond",
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ],
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ],
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ],
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ],
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ],
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ],
+          "value": "matcha:equipment/iron/spear"
+        },
+        {
+          "type": "item",
+          "name": "bow",
+          "modifier": [
+            {
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/snowy",
+              "type": "enchant_with_levels"
+            },
+            {
+              "damage": {
+                "max": 0.5,
+                "min": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 2,
+        "min": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "bone",
+          "weight": 2,
+          "modifier": {
+            "count": {
+              "max": 4,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "bone_meal",
+          "weight": 2,
+          "modifier": {
+            "count": {
+              "max": 4,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "string",
+          "weight": 2,
+          "modifier": {
+            "count": {
+              "max": 4,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "tipped_arrow",
+          "weight": 2,
+          "modifier": [
+            {
+              "count": {
+                "max": 5,
+                "min": 3,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_count"
+            },
+            {
+              "id": "slowness",
+              "type": "set_potion"
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "value": "nova_structures:chests/stray_fort/pools/cold"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 3,
+        "min": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "nova_structures:chests/stray_fort/pools/cold"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "max": 2,
+        "min": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "copper_ingot",
+          "modifier": {
+            "count": {
+              "max": 5,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "modifier": {
+            "count": {
+              "max": 3,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "iron_nugget",
+          "modifier": {
+            "count": {
+              "max": 5,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "coal",
+          "modifier": {
+            "count": {
+              "max": 5,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "emerald",
+          "modifier": {
+            "count": {
+              "max": 3,
+              "min": 2,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "amethyst_shard",
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "lapis_lazuli",
+          "modifier": {
+            "count": {
+              "max": 3,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

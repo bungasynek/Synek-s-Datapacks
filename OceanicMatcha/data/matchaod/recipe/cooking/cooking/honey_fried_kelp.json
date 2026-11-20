@@ -1,0 +1,73 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.35,
+  "ingredients": [
+    "minecraft:honey_bottle",
+    "minecraft:dried_kelp"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+		"id": "oceansdelight:honey_fried_kelp",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.speed",
+					"with": [
+						"2:00"
+					],
+					"color": "#37cafb",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.water_breathing",
+					"with": [
+						"0:45"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:water_breathing",
+								"amplifier": 0,
+								"duration": 900,
+								"show_particles": false,
+								"show_icon": true
+							},
+							{
+								"id": "minecraft:speed",
+								"amplifier": 0,
+								"duration": 2400,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

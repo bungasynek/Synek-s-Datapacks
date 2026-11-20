@@ -1,0 +1,21 @@
+{
+  "pack": {
+	"min_format": [88.0],
+	"max_format": [97.3],
+    "description": [
+      {
+        "text": "Additional Resource Pack for Synek's datapacks",
+        "color": "#cee405",
+        "bold": true
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "--------Version 4--------",
+        "color": "#908b8b",
+        "bold": false
+      }
+    ]
+  }
+}

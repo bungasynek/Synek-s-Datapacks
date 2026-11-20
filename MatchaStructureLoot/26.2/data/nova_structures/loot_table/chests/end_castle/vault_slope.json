@@ -1,0 +1,292 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/levitation_arrow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/levitation_potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/levitation_splash_potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/levitation_lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 2
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/diamond/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/crystal_heart",
+          "weight": 10
+        }
+      ],
+      "rolls": {
+        "type": "uniform",
+        "min": 0,
+        "max": 1
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "options": "#nova_structures:structure/end"
+            }
+          ],
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "options": "#nova_structures:gravity",
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "matcha:food/minecraft/golden_apple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "value": "matcha:food/minecraft/enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/nausea_arrow",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.01,
+                "max": 0.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

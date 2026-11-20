@@ -1,0 +1,3 @@
+execute as @s if predicate drinkmatcha_item:mainhand/beer_mug_sweet_berry_kriek run function drinkmatcha_item:mainhand/beer_mug_sweet_berry_kriek
+execute as @s if predicate drinkmatcha_item:offhand/beer_mug_sweet_berry_kriek run function drinkmatcha_item:offhand/beer_mug_sweet_berry_kriek
+advancement revoke @s only drinkmatcha_item:trigger/beer_mug_sweet_berry_kriek

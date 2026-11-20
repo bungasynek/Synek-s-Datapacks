@@ -1,0 +1,100 @@
+{
+	"criteria": {
+		"kelp_roll_slice": {
+			"conditions": {
+				"player": {
+					"type": "minecraft:any_of",
+					"terms": [
+						{
+							"type": "minecraft:all_of",
+							"terms": [
+								{
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"items": "farmersdelight:kelp_roll_slice"
+													}
+												}
+											}
+										}
+									]
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.mainhand": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:all_of",
+							"terms": [
+								{
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"items": "farmersdelight:kelp_roll_slice"
+													}
+												}
+											}
+										}
+									]
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.offhand": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"kelp_roll_slice"
+		]
+	],
+	"rewards": {
+		"function": "matchafd_item:update/kelp_roll_slice"
+	}
+}

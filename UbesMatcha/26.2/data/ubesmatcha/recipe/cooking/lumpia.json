@@ -1,0 +1,68 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "fabric:type": "fabric:any",
+      "ingredients": [
+        "#c:foods/raw_meat",
+        "#c:foods/safe_raw_fish",
+        "#c:foods/vegetable",
+        "#c:mushrooms"
+      ]
+    },
+    "#c:foods/leafy_green",
+    "#c:crops/lemongrass",
+    "#c:food_wrappers/lumpia_wrapper"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "ubesdelight:lumpia",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+          "translate": "effect.kleispack.weakness",
+          "with": [
+            "2:00"
+          ],
+          "color": "#b6a09a",
+          "italic": false
+        }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 120,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:weakness",
+						        "amplifier": 0,
+						        "duration": 2400,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

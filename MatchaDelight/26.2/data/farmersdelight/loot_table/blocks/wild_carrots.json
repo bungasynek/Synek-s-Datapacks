@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:match_tool",
+											"predicate": {
+												"items": "minecraft:shears"
+											}
+										}
+									]
+								}
+							],
+							"name": "farmersdelight:wild_carrots"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "farmersdelight:wild_carrots",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"items": "#minecraft:hoes"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:carrot"
+						}
+					]
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "farmersdelight:blocks/wild_carrots"
+}

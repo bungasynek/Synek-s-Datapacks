@@ -1,0 +1,507 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "repurposed_structures:chests",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5.0,
+        "max": 11.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "name": "minecraft:suspicious_stew",
+          "type": "minecraft:item",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 25.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:wither",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 20.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:weakness",
+                  "duration": {
+                    "min": 30.0,
+                    "max": 50.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "min": 15.0,
+                    "max": 30.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:unluck",
+                  "duration": {
+                    "min": 200.0,
+                    "max": 400.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:fire_resistance",
+                  "duration": {
+                    "min": 360.0,
+                    "max": 600.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "min": 60.0,
+                    "max": 120.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 12.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "minecraft:paper",
+          "type": "minecraft:item",
+          "weight": 8,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+            "type": "minecraft:loot_table",
+            "value": "matcha:treasure/divine_fragment",
+            "weight": 3
+        },
+        {
+          "name": "minecraft:warped_fungus",
+          "type": "minecraft:item",
+          "weight": 7,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 12.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:warped_wart_block",
+          "type": "minecraft:item",
+          "weight": 7,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:shroomlight",
+          "type": "minecraft:item",
+          "weight": 7,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 5.0,
+                "max": 10.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:ghast_tear",
+          "type": "minecraft:item",
+          "weight": 6,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:firework_star",
+          "type": "minecraft:item",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "type": "minecraft:set_firework_explosion",
+              "color": [
+                0
+              ],
+              "fade_colors": [
+                2988471
+              ],
+              "trail": true,
+              "twinkle": true,
+              "shape": "creeper"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:firework_star",
+          "type": "minecraft:item",
+          "weight": 4,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "type": "minecraft:set_firework_explosion",
+              "color": [
+                2988471
+              ],
+              "fade_colors": [
+                0
+              ],
+              "trail": true,
+              "twinkle": true,
+              "shape": "creeper"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "minecraft:gunpowder",
+          "type": "minecraft:item",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 10.0,
+                "max": 15.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "name": "minecraft:lime_stained_glass_pane",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
+          "name": "minecraft:black_stained_glass_pane",
+          "type": "minecraft:item",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 0,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:suspicious_stew",
+          "type": "minecraft:item",
+          "weight": 3,
+          "modifier": [
+            {
+              "type": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 25.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:wither",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 20.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:weakness",
+                  "duration": {
+                    "min": 30.0,
+                    "max": 50.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "min": 15.0,
+                    "max": 30.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:unluck",
+                  "duration": {
+                    "min": 200.0,
+                    "max": 400.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:fire_resistance",
+                  "duration": {
+                    "min": 360.0,
+                    "max": 600.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "min": 60.0,
+                    "max": 120.0,
+                    "type": "minecraft:uniform"
+                  }
+                },
+                {
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "min": 10.0,
+                    "max": 12.0,
+                    "type": "minecraft:uniform"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        },
+        {
+          "name": "minecraft:coast_armor_trim_smithing_template",
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2.0
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 180
+        },
+        {
+          "name": "minecraft:black_harness",
+          "type": "minecraft:item",
+          "weight": 5,
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1.0
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:red_harness",
+          "type": "minecraft:item",
+          "weight": 5,
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1.0
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:orange_harness",
+          "type": "minecraft:item",
+          "weight": 5,
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1.0
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "name": "minecraft:white_harness",
+          "type": "minecraft:item",
+          "weight": 5,
+          "modifier": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1.0
+              },
+              "type": "minecraft:set_count"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "repurposed_structures"
+      ]
+    }
+  ]
+}

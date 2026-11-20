@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "ubesdelight:ube_cake_slice",
+    "ubesdelight:ube_cake_slice",
+    "ubesdelight:ube_cake_slice",
+    "ubesdelight:ube_cake_slice",
+    "ubesdelight:ube_cake_slice",
+    "ubesdelight:ube_cake_slice",
+    "ubesdelight:ube_cake_slice"
+  ],
+  "result": {
+    "id": "ubesdelight:ube_cake"
+  }
+}

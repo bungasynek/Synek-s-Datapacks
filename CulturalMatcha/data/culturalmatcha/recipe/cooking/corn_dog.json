@@ -1,0 +1,62 @@
+{
+ "type": "farmersdelight:cooking",
+ "ingredients": [
+  "culturaldelights:corn_dough",
+  "culturaldelights:raw_sausage",
+  "minecraft:happy_ghast_spawn_egg"
+ ],
+ "result": {
+  "id": "culturaldelights:corn_dog",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "\ue03d II Resistance (3:00)",
+                    "color": "blue",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 96,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:resistance",
+						        "amplifier": 1,
+						        "duration": 3600,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+            "minecraft:use_remainder": {
+				"id": "minecraft:stick"
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+ },
+ "container": {
+  "id": "minecraft:stick"
+ },
+ "experience": 0.2,
+ "cookingtime": 200
+}

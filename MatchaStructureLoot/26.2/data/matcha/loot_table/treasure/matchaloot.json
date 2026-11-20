@@ -1,0 +1,80 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/opal",
+					"weight": 1
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/amber",
+					"weight": 1
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/cheerful_clay_statue",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/divine_comedy",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/enoch",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/paradise_lost",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/porkchop_classic",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/quran",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/ruby",
+					"weight": 1
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/solomon",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/tanakh",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/topaz",
+					"weight": 1
+				},
+        		{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/mournful_clay_statue",
+					"weight": 100
+				},
+        		{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"weight": 200
+				}
+			]
+		}
+	]
+}

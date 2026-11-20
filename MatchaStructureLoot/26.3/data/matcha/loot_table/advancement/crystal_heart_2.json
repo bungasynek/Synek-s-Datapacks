@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:advancement_reward",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/crystal_heart",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 2
+					}
+				}
+			]
+		}
+	]
+}

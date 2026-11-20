@@ -1,0 +1,51 @@
+{
+  "type": "drinkbeer:brewing",
+  "ingredients": [
+    "#c:crops/wheat",
+    "minecraft:sugar",
+    "minecraft:blaze_powder",
+    "minecraft:water_bucket"
+  ],
+  "cup": {
+    "id": "drinkbeer:empty_beer_mug",
+    "count": 4
+  },
+  "brewing_time": 18000,
+  "result": {
+		"id": "drinkbeer:beer_mug_blaze_milk_stout",
+    "count": 4,
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"animation": "drink",
+				"sound": "minecraft:entity.wandering_trader.drink_milk",
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

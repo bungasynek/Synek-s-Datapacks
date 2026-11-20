@@ -1,0 +1,121 @@
+{
+  "type": "ubesdelight:baking_mat",
+  "ingredients": [
+    "minecraft:egg",
+    "#c:tea_ingredients/sweet/weak",
+    "#c:tea_ingredients/sweet/weak",
+    "minecraft:beetroot_soup",
+    "#c:crops/ube",
+    "minecraft:beetroot_soup",
+    "minecraft:beetroot_soup",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:shulker_spawn_egg"
+  ],
+  "processing_stages": [],
+  "result": [
+    {
+      "item": {
+        "id": "ubesdelight:ube_cake",
+        "components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.resistance",
+					"with": [
+						"15:00"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 144,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:resistance",
+						        "amplifier": 0,
+						        "duration": 18000,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+    },
+    {
+      "chance": 0.5,
+      "item": {
+        "id": "ubesdelight:ube_cake",
+        "components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.resistance",
+					"with": [
+						"15:00"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 144,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:resistance",
+						        "amplifier": 0,
+						        "duration": 18000,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}
+  ],
+  "tool": "#c:tools/rolling_pin"
+}

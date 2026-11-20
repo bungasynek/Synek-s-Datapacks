@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  ["ecologics:walnut_leaves"],
+  "result": {
+		"id": "ecologics:walnut_sapling"
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "pack": {
+  "pack_format": 121,
+	"min_format": [121],
+	"max_format": [121],
+    "description": [
+      {
+        "text": "Naturalist integration into Matcha Flavoured",
+        "color": "#56be4e"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.3",
+        "color": "#908b8b"
+      }
+    ]
+  },
+  "filter": {
+  "block": [
+    {
+      "namespace": "naturalist",
+      "path": "(recipe/cooked_(anglerfish|bass|blobfish|bushmeat|catfish|clam_meat|crab_meat|drumstick|duck|egg|lizard_tail|mammoth_meat|piranha|venison|glow_goop).*|advancement/recipes/food/(cooked_(anglerfish|bass|blobfish|bushmeat|catfish|clam_meat|crab_meat|drumstick|duck|egg|lizard_tail|mammoth_meat|piranha|venison.*)))\\.json"
+    },
+    {
+      "namespace": "naturalist",
+      "path": "(recipe|advancement/recipes/food)/pumpkin_pie\\.json"
+    },
+    {
+      "namespace": "naturalist",
+      "path": "(recipe|advancement/recipes/naturalist)/glow_goop.*\\.json"
+    }
+  ]
+}
+}

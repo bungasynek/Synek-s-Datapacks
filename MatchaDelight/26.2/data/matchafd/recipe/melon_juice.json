@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:sugar",
+    "minecraft:melon_slice",
+    "minecraft:melon_slice",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+		"id": "farmersdelight:melon_juice",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.fire_resistance",
+					"with": [
+						"15:00"
+					],
+					"color": "#ffa500",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 36,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:fire_resistance",
+								"amplifier": 0,
+								"duration": 18000,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

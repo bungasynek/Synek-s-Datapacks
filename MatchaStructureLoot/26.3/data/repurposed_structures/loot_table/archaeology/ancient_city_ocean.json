@@ -1,0 +1,225 @@
+{
+  "type": "minecraft:archaeology",
+  "random_sequence": "repurposed_structures:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:tide_armor_trim_smithing_template",
+          "type": "minecraft:item",
+          "weight": 1
+        },
+        {
+          "name": "minecraft:blade_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:explorer_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:mourner_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:plenty_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:angler_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+            "type": "minecraft:loot_table",
+            "value": "matcha:treasure/crystal_heart",
+            "weight": 10
+        },
+        {
+          "name": "minecraft:shelter_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:snort_pottery_sherd",
+          "type": "minecraft:item",
+          "weight": 3
+        },
+        {
+          "name": "minecraft:sniffer_egg",
+          "type": "minecraft:item",
+          "weight": 8
+        },
+        {
+          "name": "minecraft:emerald",
+          "type": "minecraft:item",
+          "weight": 8
+        },
+        {
+          "name": "minecraft:diamond",
+          "type": "minecraft:item",
+          "weight": 8
+        },
+        {
+          "name": "minecraft:wheat",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "value": "matcha:food/minecraft/sweet_berries"
+        },
+        {
+          "name": "minecraft:potato",
+          "type": "minecraft:item",
+          "weight": 2
+        },
+        {
+          "name": "minecraft:poisonous_potato",
+          "type": "minecraft:item",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.7
+              }
+            }
+          ],
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.7
+              }
+            }
+          ],
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.7
+              }
+            }
+          ],
+          "value": "matcha:equipment/chainmail/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.7
+              }
+            }
+          ],
+          "value": "matcha:equipment/chainmail/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.7
+              }
+            }
+          ],
+          "value": "matcha:equipment/chainmail/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.1,
+                "max": 0.7
+              }
+            }
+          ],
+          "value": "matcha:equipment/chainmail/helmet"
+        },
+        {
+          "name": "minecraft:coal",
+          "type": "minecraft:item",
+          "weight": 8
+        },
+        {
+          "name": "minecraft:gold_nugget",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "minecraft:gold_ingot",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:iron_nugget",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "name": "minecraft:iron_ingot",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:copper_ingot",
+          "type": "minecraft:item",
+          "weight": 6
+        },
+        {
+          "name": "minecraft:lapis_lazuli",
+          "type": "minecraft:item",
+          "weight": 8
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "repurposed_structures"
+      ]
+    }
+  ]
+}

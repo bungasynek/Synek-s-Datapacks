@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "ecologics:maple_syrup_bottle",
+    "#c:crops/wheat",
+    "#c:crops/wheat"
+  ],
+  "result": {
+    "count": 8,
+		"id": "ecologics:maple_cookie",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "\ue030\ue030 (4:00)", 
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.4,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 24,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:health_boost",
+								"amplifier": 0,
+								"duration": 4800,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

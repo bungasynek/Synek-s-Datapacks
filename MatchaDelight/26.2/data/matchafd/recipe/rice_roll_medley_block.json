@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "farmersdelight:kelp_roll_slice",
+    "farmersdelight:kelp_roll_slice",
+    "farmersdelight:kelp_roll_slice",
+    "farmersdelight:salmon_roll",
+    "farmersdelight:salmon_roll",
+    "farmersdelight:salmon_roll",
+    "farmersdelight:cod_roll",
+    "minecraft:bowl",
+    "farmersdelight:cod_roll"
+  ],
+  "result": {
+		"id": "farmersdelight:rice_roll_medley_block",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.dolphins_grace",
+					"with": [
+						"1:00"
+					],
+					"color": "aqua",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 96,
+								"show_particles": false,
+								"show_icon": false
+							},
+              {
+								"id": "minecraft:dolphins_grace",
+								"amplifier": 0,
+								"duration": 1200,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

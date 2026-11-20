@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "ubesdelight:ginger_crate"
+  ],
+  "result": {
+    "count": 9,
+    "id": "ubesdelight:ginger"
+  }
+}

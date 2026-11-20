@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  ["ecologics:coconut_leaves"],
+  "result": {
+		"id": "ecologics:coconut_seedling"
+	}
+}

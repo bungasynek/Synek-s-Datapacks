@@ -1,0 +1,29 @@
+
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": 121,
+    "description": [
+      {
+        "text": "More Delight integration into Matcha Flavoured",
+        "color": "#059fe1"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.2",
+        "color": "#908b8b"
+      }
+    ]
+  },
+"filter": {
+  "block": [
+    {
+      "namespace": "^moredelight$",
+      "path": "^(recipe/.*|advancement/recipes/.*)$"
+    }
+  ]
+}
+
+}

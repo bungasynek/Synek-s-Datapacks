@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 20,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/minecraft/bread"
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wheat_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "bone_meal"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:emerald"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "stick"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "structuresplus"
+      ]
+    }
+  ]
+}

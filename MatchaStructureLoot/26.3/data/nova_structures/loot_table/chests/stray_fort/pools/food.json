@@ -1,0 +1,185 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/minecraft/sweet_berries"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/minecraft/bread"
+        },
+        {
+          "type": "item",
+          "name": "wheat",
+          "weight": 3,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "rabbit",
+          "weight": 6,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/matcha/cooked_meat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/minecraft/cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 6,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/matcha/cooked_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 6,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/minecraft/salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/matcha/cooked_large_fish"
+        },
+        {
+          "type": "item",
+          "name": "pumpkin_pie",
+          "weight": 3,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "milk_bucket",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "matcha:food/minecraft/cake"
+        },
+        {
+          "type": "item",
+          "name": "egg",
+          "weight": 2,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        },
+        {
+          "type": "item",
+          "name": "charcoal",
+          "weight": 2,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

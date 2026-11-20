@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.2,
+  "ingredients": [
+    "minecraft:beetroot_soup"
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "id": "ubesdelight:milk_powder"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/matcha/tomato"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/enoch",
+					"weight": 1
+				},
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": {
+            "count": {
+              "max": 3,
+              "min": 2,
+              "type": "uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/minecraft/chorus_fruit"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": {
+            "count": {
+              "max": 2,
+              "min": 1,
+              "type": "uniform"
+            },
+            "type": "set_count"
+          },
+          "value": "matcha:food/minecraft/apple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "matcha:food/minecraft/golden_apple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "matcha:food/matcha/grilled_melon"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "id": "strong_harming",
+            "type": "set_potion"
+          }
+        },
+        {
+          "type": "item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "id": "strong_harming",
+            "type": "set_potion"
+          }
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lingering_potion",
+          "modifier": {
+            "id": "strong_harming",
+            "type": "set_potion"
+          }
+        }
+      ],
+      "rolls": 3
+    },
+    {
+      "bonus_rolls": 0,
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "effects": [
+              {
+                "type": "minecraft:night_vision",
+                "duration": 5
+              },
+              {
+                "type": "minecraft:jump_boost",
+                "duration": 5
+              },
+              {
+                "type": "minecraft:weakness",
+                "duration": 7
+              },
+              {
+                "type": "minecraft:blindness",
+                "duration": 11
+              },
+              {
+                "type": "minecraft:poison",
+                "duration": 11
+              },
+              {
+                "type": "minecraft:saturation",
+                "duration": 7
+              },
+              {
+                "type": "minecraft:levitation",
+                "duration": 10
+              }
+            ],
+            "type": "minecraft:set_stew_effect"
+          }
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

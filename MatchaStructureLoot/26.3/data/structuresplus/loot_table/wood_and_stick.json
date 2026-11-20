@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 1,
+              "quality": 1,
+              "value": "matcha:equipment/wood/shovel"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wooden_sword",
+              "weight": 1,
+              "quality": 1
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 1,
+              "quality": 1,
+              "value": "matcha:equipment/wood/pickaxe"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 1,
+              "quality": 1,
+              "value": "matcha:equipment/wood/axe"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "structuresplus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "ingredients": [
+  "minecraft:dried_kelp",
+  "farmersdelight:cooked_rice",
+  "culturaldelights:raw_calamari",
+  "culturaldelights:raw_calamari"
+ ],
+ "result": {
+    "count": 2,
+  "id": "culturaldelights:calamari_roll",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 60,
+						        "show_particles": false,
+						        "show_icon": false
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+	}
+}

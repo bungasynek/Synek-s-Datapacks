@@ -1,0 +1,162 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 8,
+              "min": 5
+            },
+            "type": "minecraft:set_count"
+          },
+          "value": "matcha:food/minecraft/golden_carrot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 5,
+              "min": 3
+            },
+            "type": "minecraft:set_count"
+          },
+          "value": "matcha:food/minecraft/golden_apple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/minecraft/enchanted_golden_apple"
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 4,
+              "min": 3
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 2
+            },
+            "type": "minecraft:set_count"
+          }
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/adamant/boots"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:netherite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:ancient_debris",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 1
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 250
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

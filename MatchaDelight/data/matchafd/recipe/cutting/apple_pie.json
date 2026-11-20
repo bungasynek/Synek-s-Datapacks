@@ -1,0 +1,59 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "farmersdelight:apple_pie"
+  ],
+  "result": [{
+	"item":{
+    "count": 4,
+		"id": "farmersdelight:apple_pie_slice",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.strength",
+					"with": [
+						"1:00"
+					],
+					"color": "#860111",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:strength",
+								"amplifier": 0,
+								"duration": 1200,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+		}
+	}],
+  "tool": "#c:tools/knife"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:beetroot_soup",
+    "B": "#c:tea_ingredients/sweet/weak",
+    "C": "minecraft:shulker_spawn_egg",
+    "E": "#c:eggs",
+    "F": "#c:crops/ube"
+  },
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CFC"
+  ],
+  "result": {
+    "id": "ubesdelight:ube_cake"
+  }
+}

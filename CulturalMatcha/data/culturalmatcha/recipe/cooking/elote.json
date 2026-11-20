@@ -1,0 +1,50 @@
+{
+ "type": "farmersdelight:cooking",
+ "ingredients": [
+  "#c:crops/corn",
+  ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+ ],
+ "result": {
+  "id": "culturaldelights:elote",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 72,
+						        "show_particles": false,
+						        "show_icon": false
+						    }
+						]
+					}
+				]
+			},
+            "minecraft:use_remainder": {
+				"id": "minecraft:stick"
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+ },
+ "container": {
+  "id": "minecraft:stick",
+  "count": 1
+ },
+ "experience": 0.2,
+ "cookingtime": 200
+}

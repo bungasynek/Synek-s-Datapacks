@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "w": "minecraft:shulker_spawn_egg"
+  },
+  "pattern": [
+    "wMw",
+    " w "
+  ],
+  "result": {
+		"id": "farmersdelight:pie_crust",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue032",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 36,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

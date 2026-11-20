@@ -1,0 +1,67 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_fried_foods"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "ingredients": [
+    ["rusticdelight:cooking_oil", "minecraft:happy_ghast_spawn_egg"],
+    "minecraft:shulker_spawn_egg",
+    "#c:foods/leafy_green",
+    "#rusticdelight:spring_roll_ingredients"
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:spring_rolls",
+        "components": {
+          "minecraft:lore": [
+            {
+              "text": "\ue030\ue030\ue030\ue030",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "translate": "effect.kleispack.strength",
+              "with": [
+                "2:30"
+              ],
+              "color": "#e65f33",
+              "italic": false
+            }
+          ],
+          "!minecraft:food": {},
+          "minecraft:consumable": {
+            "consume_seconds": 1.6,
+            "has_consume_particles": true,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                    {
+                        "id": "minecraft:regeneration",
+                        "amplifier": 2,
+                        "duration": 96,
+                        "show_particles": false,
+                        "show_icon": false
+                    },
+                    {
+                        "id": "minecraft:strength",
+                        "amplifier": 0,
+                        "duration": 3000,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                ]
+              }
+            ]
+          },
+          "minecraft:custom_data": {
+            "version": 1
+          }
+        }
+      }
+    }

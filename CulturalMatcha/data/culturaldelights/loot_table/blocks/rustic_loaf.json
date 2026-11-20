@@ -1,0 +1,23 @@
+﻿{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "culturalmatcha:food/culturaldelight/rustic_loaf"
+        }
+      ],
+      "condition":
+        {
+          "type": "minecraft:match_block",
+          "blocks": "culturaldelights:rustic_loaf",
+          "state": {
+            "bites": "0"
+          }
+        }
+    }
+  ]
+}

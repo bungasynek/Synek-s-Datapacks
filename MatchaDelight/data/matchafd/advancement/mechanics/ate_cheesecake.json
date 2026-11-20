@@ -1,0 +1,17 @@
+{
+	"parent": "matcha:imm_revoke",
+	"criteria": {
+		"eat_cake_slice": {
+			"trigger": "minecraft:default_block_use",
+			"conditions": {
+				"location": {
+					"type": "minecraft:match_block",
+					"blocks": "farmersdelight:sweet_berry_cheesecake"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matchafd:mechanics/cheesecake_eaten"
+	}
+}

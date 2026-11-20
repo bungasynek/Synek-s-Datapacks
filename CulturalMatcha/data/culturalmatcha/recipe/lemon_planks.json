@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    ["culturaldelights:lemon_log", "culturaldelights:lemon_wood"]
+  ],
+  "result": {
+		"id": "minecraft:oak_planks"
+	}
+}

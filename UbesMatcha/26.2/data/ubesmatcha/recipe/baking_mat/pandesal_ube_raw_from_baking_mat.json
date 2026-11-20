@@ -1,0 +1,96 @@
+{
+  "type": "ubesdelight:baking_mat",
+  "ingredients": [
+    "minecraft:shulker_spawn_egg",
+    "#c:tea_ingredients/sweet/weak",
+    "minecraft:bread",
+    "#c:crops/ube"
+  ],
+  "processing_stages": [
+    "ubesdelight:pandesal_ube_stage0",
+    "ubesdelight:pandesal_ube_stage1",
+    "ubesdelight:pandesal_ube_stage2"
+  ],
+  "result": [
+    {
+		"item": {
+      "count": 4,
+      "id": "ubesdelight:pandesal_ube_raw",
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.poison",
+					"with": [
+						"0:20"
+					],
+					"color": "#48a53b",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+              {
+								"id": "minecraft:poison",
+								"amplifier": 0,
+								"duration": 400,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+    }},
+    {
+		"item": {
+      "chance": 0.25,
+      "count": 2,
+      "id": "ubesdelight:pandesal_ube_raw",
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.poison",
+					"with": [
+						"0:20"
+					],
+					"color": "#48a53b",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+              {
+								"id": "minecraft:poison",
+								"amplifier": 0,
+								"duration": 400,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+    }}
+  ],
+  "tool": "#c:tools/rolling_pin"
+}

@@ -1,0 +1,28 @@
+
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": 121,
+    "description": [
+      {
+        "text": "Drink Beer Refill's integration into Matcha Flavoured",
+        "color": "#e0e400"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.1",
+        "color": "#908b8b"
+      }
+    ]
+  },
+"filter": {
+  "block": [
+    {
+      "namespace": "^drinkbeer$",
+      "path": "^(recipe/.*)$"
+    }
+  ]
+}
+}

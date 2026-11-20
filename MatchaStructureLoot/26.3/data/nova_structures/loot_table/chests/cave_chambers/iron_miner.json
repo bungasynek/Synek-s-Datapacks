@@ -1,0 +1,146 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "modifier": [
+                {
+                  "type": "minecraft:set_damage",
+                  "damage": {
+                    "type": "minecraft:uniform",
+                    "min": 0.33,
+                    "max": 0.66
+                  }
+                }
+              ],
+              "value": "matcha:equipment/iron/pickaxe"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "modifier": [
+                {
+                  "type": "minecraft:set_damage",
+                  "damage": {
+                    "type": "minecraft:uniform",
+                    "min": 0.33,
+                    "max": 0.66
+                  }
+                }
+              ],
+              "value": "matcha:equipment/iron/shovel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 8,
+      "entries": [
+        {
+          "type": "minecraft:sequence",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:raw_iron",
+              "weight": 7,
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_ingot",
+              "weight": 6,
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:coal",
+              "weight": 5,
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:stick",
+              "weight": 5,
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:torch",
+              "weight": 5,
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 3,
+              "value": "matcha:food/minecraft/bread"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 3,
+              "value": "matcha:food/minecraft/apple"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

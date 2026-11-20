@@ -1,0 +1,25 @@
+{
+  "type": "ubesdelight:baking_mat",
+  "ingredients": [
+    "minecraft:egg",
+    "minecraft:enderman_spawn_egg",
+    "minecraft:enderman_spawn_egg",
+    "minecraft:enderman_spawn_egg"
+  ],
+  "processing_stages": [],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "minecraft:shulker_spawn_egg"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "id": "minecraft:shulker_spawn_egg"
+      }
+    }
+  ],
+  "tool": "#c:tools/rolling_pin"
+}

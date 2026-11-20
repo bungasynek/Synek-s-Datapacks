@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matchafd:food/tools/flint_knife"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matchafd:food/tools/iron_knife"
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:ham"
+        },
+        {
+          "type": "minecraft:loot_table",
+					"value": "matchafd:food/farmersdelight/minced_beef"
+        },
+        {
+          "type": "minecraft:loot_table",
+					"value": "matchafd:food/farmersdelight/bacon"
+        },
+        {
+          "type": "minecraft:loot_table",
+					"value": "matchafd:food/farmersdelight/mutton_chops"
+        },
+        {
+          "type": "minecraft:empty"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    ["culturaldelights:lemon_leaves", "culturaldelights:fruiting_lemon_leaves"]
+  ],
+  "result": {
+		"id": "culturaldelights:lemon_sapling"
+	}
+}

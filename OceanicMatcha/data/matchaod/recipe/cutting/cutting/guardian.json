@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "oceansdelight:guardian"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "oceansdelight:guardian_tail"
+      }
+    },
+    {
+      "item": {
+        "count": 1,
+        "id": "minecraft:bone_meal"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

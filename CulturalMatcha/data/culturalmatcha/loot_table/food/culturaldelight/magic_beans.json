@@ -1,0 +1,91 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "culturaldelights:magic_beans",
+					"modifier": [
+						{
+							"type": "minecraft:set_components",
+							"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.haste",
+                    "with": [
+                        "1:00"
+                    ],
+                    "color": "yellow",
+                    "italic": false
+                },
+                {
+                    "translate": "effect.kleispack.speed",
+                    "with": [
+                        "1:00"
+                    ],
+                    "color": "#37cafb",
+                    "italic": false
+                },
+				{
+                    "translate": "effect.kleispack.warping",
+                    "with": [
+                        "1:00"
+                    ],
+                    "color": "#a945b0",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 60,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:haste",
+						        "amplifier": 0,
+						        "duration": 1200,
+						        "show_particles": false,
+						        "show_icon": true
+						    },
+						    {
+						        "id": "minecraft:speed",
+						        "amplifier": 0,
+						        "duration": 1200,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					},
+										{
+											"type": "minecraft:teleport_randomly"
+										}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+					]
+				}
+			]
+		}
+	]
+}

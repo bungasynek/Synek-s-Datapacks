@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:foods/bread",
+    "farmersdelight:beef_patty"
+  ],
+  "result": {
+		"id": "moredelight:simple_hamburger",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "\ue030\ue030 (2:00)", 
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 60,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:health_boost",
+								"amplifier": 1,
+								"duration": 2400,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

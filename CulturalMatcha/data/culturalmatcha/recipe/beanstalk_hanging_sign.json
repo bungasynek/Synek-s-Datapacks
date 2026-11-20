@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "hanging_sign",
+ "key": {
+  "#": "culturaldelights:stripped_beanstalk",
+  "X": "minecraft:iron_chain"
+ },
+ "pattern": [
+  "X X",
+  "###",
+  "###"
+ ],
+ "result": {
+  "count": 6,
+  "id": "culturaldelights:beanstalk_hanging_sign"
+ }
+}

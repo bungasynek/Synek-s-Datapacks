@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_coffee"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rusticdelight:coffee_beans_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "rusticdelight:coffee_beans"
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "farmersdelight:potato_crate"
+  ],
+  "result": {
+    "id": "minecraft:potato",
+    "count": 9
+  }
+}

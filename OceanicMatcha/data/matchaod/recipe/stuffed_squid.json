@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "oceansdelight:tentacles",
+    "farmersdelight:rice",
+    "minecraft:kelp"
+  ],
+  "result": {
+    "count": 1,
+    "id": "oceansdelight:stuffed_squid"
+  }
+}

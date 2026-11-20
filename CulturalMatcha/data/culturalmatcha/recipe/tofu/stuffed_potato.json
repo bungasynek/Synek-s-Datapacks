@@ -1,0 +1,52 @@
+{
+ "type": "culturaldelights:baking",
+ "cooktime": 200,
+ "ingredients": [
+  "#c:crops/potato",
+  "culturaldelights:tofu",
+  ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+ ],
+ "result": {
+  "id": "farmersdelight:stuffed_potato",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.cleanses_maleffect",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 60,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					},
+					{
+						"type": "minecraft:remove_effects",
+						"effects": "#matcha:harmful"
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

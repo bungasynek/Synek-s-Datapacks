@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.35,
+  "ingredients": [
+    [
+      "minecraft:kelp",
+      "minecraft:seagrass"
+    ]
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "id": "oceansdelight:salt"
+  }
+}

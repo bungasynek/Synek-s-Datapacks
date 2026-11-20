@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand matchafd_item:modify/stuffed_pumpkin

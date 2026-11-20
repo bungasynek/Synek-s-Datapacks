@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "#minecraft:planks",
+    "B": "minecraft:stick"
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "id": "moredelight:wooden_knife",
+    "components": {
+							"minecraft:lore": [
+								{
+									"text": "\ud83d\udde1 1.5",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": "\ud83d\udd52 2",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.repaired_with",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"translate": "block.minecraft.oak_planks",
+									"color": "#eb921d",
+									"italic": false
+								}
+							],
+							"minecraft:enchantment_glint_override": false,
+							"minecraft:tooltip_display": {
+								"hide_tooltip": false,
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+  }
+}

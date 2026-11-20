@@ -1,0 +1,46 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "ingredients": [
+  "culturaldelights:tortilla",
+  "#c:foods/cooked_beef",
+  "#culturaldelights:avocados",
+  "culturaldelights:refried_beans",
+  "farmersdelight:cooked_rice"
+ ],
+ "result": {
+  "id": "culturaldelights:beef_burrito",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": { 
+			"animation": "drink",
+			"sound": "minecraft:entity.wandering_trader.drink_milk",
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 144,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+	}
+}

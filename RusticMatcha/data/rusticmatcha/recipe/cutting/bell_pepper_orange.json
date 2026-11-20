@@ -1,0 +1,58 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_bell_peppers"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "rusticdelight:bell_pepper_orange"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "rusticdelight:bell_pepper_slice_orange",
+    "components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue032",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 12,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+  }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "id": "rusticdelight:pale_bell_pepper_seeds"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

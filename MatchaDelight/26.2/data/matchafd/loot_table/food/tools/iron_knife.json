@@ -1,0 +1,53 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "farmersdelight:iron_knife",
+					"modifier": [
+						{
+							"type": "minecraft:set_components",
+							"components": {
+							"minecraft:lore": [
+								{
+									"text": "\ud83d\udde1 3.5",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": "\ud83d\udd52 2",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.repaired_with",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"translate": "item.minecraft.iron_ingot",
+									"color": "dark_gray",
+									"italic": false
+								}
+							],
+							"minecraft:enchantment_glint_override": false,
+							"minecraft:tooltip_display": {
+								"hide_tooltip": false,
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+	}
+					]
+				}
+			]
+		}
+	]
+}

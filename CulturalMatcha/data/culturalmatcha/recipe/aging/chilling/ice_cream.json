@@ -1,0 +1,61 @@
+{
+ "type": "culturaldelights:aging",
+ "cooktime": 200,
+ "ingredients": [
+  ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+  "minecraft:sugar"
+ ],
+ "temperature": "cold",
+ "container": "culturaldelights:wafer",
+ "result": {
+  "id": "culturaldelights:ice_cream",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.speed",
+                    "with": [
+                        "3:30"
+                    ],
+                    "color": "#37cafb",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": { 
+            "animation": "drink",
+            "sound": "minecraft:entity.wandering_trader.drink_milk",
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+				    {
+				        "type": "minecraft:apply_effects",
+				        "effects": [
+				            {
+				                "id": "minecraft:regeneration",
+				                "amplifier": 2,
+				                "duration": 60,
+				                "show_particles": false,
+				                "show_icon": false
+				            },
+				            {
+				                "id": "minecraft:speed",
+				                "amplifier": 0,
+				                "duration": 4200,
+				                "show_particles": false,
+				                "show_icon": true
+				            }
+				        ]
+				    }
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

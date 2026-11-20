@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cake",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"minecraft:lore": [
+									{
+										"text": "\ue030\ue030\ue030\ue030",
+										"color": "red",
+										"italic": false
+									},
+									{
+										"text": "\ue030\ue030\ue030\ue030 (3:00)",
+										"color": "gray",
+										"italic": false
+									}
+								],
+								"minecraft:custom_data": {
+									"version": 1
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

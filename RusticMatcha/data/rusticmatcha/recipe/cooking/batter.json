@@ -1,0 +1,64 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:or",
+      "values": [
+        {
+          "condition": "rusticdelight:config_boolean",
+          "settingId": "enable_fried_foods"
+        },
+        {
+          "condition": "rusticdelight:config_boolean",
+          "settingId": "enable_pancakes"
+        }
+      ]
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "#c:eggs",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:shulker_spawn_egg"
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:batter",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue032",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 12,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

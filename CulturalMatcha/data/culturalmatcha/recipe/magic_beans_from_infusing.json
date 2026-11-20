@@ -1,0 +1,23 @@
+{
+  "type": "modestmagic:infusing",
+  "base": "culturaldelights:beans",
+  "ingredients": [
+    "modestmagic:stardust",
+    "minecraft:amethyst_shard",
+    "minecraft:glowstone_dust",
+    "minecraft:lapis_lazuli"
+  ],
+  "results": [
+    {
+      "id": "culturaldelights:magic_beans"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "modestmagic"
+      ]
+    }
+  ]
+}

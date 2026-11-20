@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:advancement_reward",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"modifier": {
+						"type": "minecraft:set_count",
+						"count": 5
+					}
+				}
+			]
+		}
+	],
+	"random_sequence": "matcha:advancement/reward"
+}

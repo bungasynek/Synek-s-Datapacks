@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 2
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 4,
+            "max": 8
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "functions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [],
+          "value": "matcha:equipment/gold/helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "functions": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [],
+          "value": "matcha:equipment/iron/boots"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [],
+          "value": "matcha:equipment/gold/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [],
+          "value": "matcha:equipment/copper/sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly"
+        },
+        {
+          "function": "minecraft:enchant_randomly"
+        },
+        {
+          "function": "minecraft:enchant_randomly"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/helmet"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_randomly"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_ati_structuresfabricforge",
+        "mr_ati_structuresvanillaedition"
+      ]
+    }
+  ]
+}

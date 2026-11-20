@@ -1,0 +1,134 @@
+{
+  "type": "minecraft:block",
+  "modifier": [
+    {
+      "type": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "culturaldelights:butterscotch_cinnamon_pie_slice",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 4
+                }
+              ],
+            "condition": {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "#c:tools/knife"
+                  }
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "culturaldelights:butterscotch_cinnamon_pie",
+                  "state": {
+                    "bites": "0"
+                  }
+                }
+              ]
+            }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "culturaldelights:butterscotch_cinnamon_pie_slice",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 3
+                }
+              ],
+            "condition": {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "#c:tools/knife"
+                  }
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "culturaldelights:butterscotch_cinnamon_pie",
+                  "state": {
+                    "bites": "1"
+                  }
+                }
+              ]
+            }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "culturaldelights:butterscotch_cinnamon_pie_slice",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 2
+                }
+              ],
+            "condition": {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "#c:tools/knife"
+                  }
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "culturaldelights:butterscotch_cinnamon_pie",
+                  "state": {
+                    "bites": "2"
+                  }
+                }
+              ]
+            }
+            },
+            {
+              "type": "minecraft:item",
+              "name": "culturaldelights:butterscotch_cinnamon_pie_slice",
+              "modifier": [
+                {
+                  "type": "minecraft:set_count",
+                  "count": 1
+                }
+              ],
+            "condition": {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:match_tool",
+                  "predicate": {
+                    "items": "#c:tools/knife"
+                  }
+                },
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "culturaldelights:butterscotch_cinnamon_pie",
+                  "state": {
+                    "bites": "3"
+                  }
+                }
+              ]
+            }
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "culturaldelights:butterscotch_cinnamon_pie"
+}

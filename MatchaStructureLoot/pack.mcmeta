@@ -1,0 +1,29 @@
+
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": 121,
+    "description": [
+      {
+        "text": "Structure loot integration for Matcha Flavoured",
+        "color": "#e9e519"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 4.1-hotfix",
+        "color": "#908b8b"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "26.3",
+        "min_format": 121,
+        "max_format": 121
+      }
+    ]
+  }
+}

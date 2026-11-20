@@ -1,0 +1,93 @@
+{
+ "fabric:load_conditions": [
+  {
+   "condition": "fabric:tags_populated",
+   "registry": "minecraft:item",
+   "values": [
+    "c:crops/ginger"
+   ]
+  }
+ ],
+ "type": "farmersdelight:cooking",
+ "ingredients": [
+  "#c:crops/ginger",
+  "farmersdelight:tomato_sauce",
+  "#c:crops/rice",
+  "culturaldelights:beans",
+  "#c:foods/raw_chicken",
+  ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+ ],
+ "result": {
+  "id": "culturaldelights:spicy_curry",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.fire_resistance",
+                    "with": [
+                        "15:00"
+                    ],
+                    "color": "gold",
+                    "italic": false
+                },
+                {
+                    "translate": "effect.kleispack.resistance",
+                    "with": [
+                        "5:00"
+                    ],
+                    "color": "blue",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 168,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:fire_resistance",
+						        "amplifier": 0,
+						        "duration": 18000,
+						        "show_particles": false,
+						        "show_icon": true
+						    },
+						    {
+						        "id": "minecraft:resistance",
+						        "amplifier": 0,
+						        "duration": 6000,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+            "minecraft:use_remainder": {
+				"id": "minecraft:bowl"
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+ },
+ "container": {
+  "id": "minecraft:bowl",
+  "count": 1
+ },
+ "experience": 0.35,
+ "cookingtime": 200
+}

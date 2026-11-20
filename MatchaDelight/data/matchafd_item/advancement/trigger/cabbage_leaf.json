@@ -1,0 +1,100 @@
+{
+	"criteria": {
+		"cabbage_leaf": {
+			"conditions": {
+				"player": {
+					"type": "minecraft:any_of",
+					"terms": [
+						{
+							"type": "minecraft:all_of",
+							"terms": [
+								{
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"items": "farmersdelight:cabbage_leaf"
+													}
+												}
+											}
+										}
+									]
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.mainhand": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:all_of",
+							"terms": [
+								{
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"items": "farmersdelight:cabbage_leaf"
+													}
+												}
+											}
+										}
+									]
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.offhand": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"cabbage_leaf"
+		]
+	],
+	"rewards": {
+		"function": "matchafd_item:update/cabbage_leaf"
+	}
+}

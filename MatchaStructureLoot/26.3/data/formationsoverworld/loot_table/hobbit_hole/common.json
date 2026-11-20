@@ -1,0 +1,256 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 5.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 16.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glass_bottle",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:poppy",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dandelion",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:blue_orchid",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:oxeye_daisy",
+          "weight": 10,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_mushroom",
+          "weight": 3,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brown_mushroom",
+          "weight": 3,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ghast_tear",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/sword"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/pickaxe"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/axe"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/copper/shovel"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/helmet"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/chestplate"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/leggings"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "name": "minecraft:shears",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:shield",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:lead",
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:clock",
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book",
+          "type": "minecraft:item"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "formationsoverworld"
+      ]
+    }
+  ]
+}

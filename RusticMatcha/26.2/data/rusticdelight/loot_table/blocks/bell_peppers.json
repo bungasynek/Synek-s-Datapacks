@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:block",
+  "modifier": {
+    "type": "minecraft:explosion_decay"
+  },
+  "pools": [
+    {
+      "condition": {
+        "type": "minecraft:inverted",
+        "term": {
+          "type": "minecraft:match_block",
+          "blocks": "rusticdelight:bell_peppers",
+          "state": {
+            "age": "7"
+          }
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rusticdelight:bell_pepper_seeds"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "rusticdelight:bell_peppers",
+        "state": {
+          "age": "7"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 1
+              }
+            },
+            {
+              "type": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 1
+              }
+            }
+          ],
+          "name": "rusticdelight:bell_pepper_seeds"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "rusticdelight:bell_peppers",
+        "state": {
+          "age": "7"
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rusticmatcha:food/rusticdelight/bell_pepper_red",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rusticmatcha:food/rusticdelight/bell_pepper_green"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "rusticmatcha:food/rusticdelight/bell_pepper_yellow"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:match_block",
+            "blocks": "rusticdelight:bell_peppers",
+            "state": {
+              "age": "7"
+            }
+          },
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.15
+          }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rusticmatcha:food/rusticdelight/bell_pepper_green"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:match_block",
+            "blocks": "rusticdelight:bell_peppers",
+            "state": {
+              "age": "7"
+            }
+          },
+          {
+            "type": "minecraft:random_chance",
+            "chance": 0.15
+          }
+        ]
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "rusticmatcha:food/rusticdelight/bell_pepper_yellow"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "rusticdelight:blocks/bell_peppers"
+}

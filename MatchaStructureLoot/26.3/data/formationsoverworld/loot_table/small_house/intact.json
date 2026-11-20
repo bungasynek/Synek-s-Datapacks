@@ -1,0 +1,216 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 15,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 20,
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/matcha/cooked_large_fish"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/minecraft/golden_carrot"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 15,
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/matcha/cheese"
+        },
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "weight": 20,
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/minecraft/apple"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:food/minecraft/cake"
+        },
+        {
+          "name": "minecraft:pumpkin_pie",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "levels": 20.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 5,
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:wooden_sword",
+          "type": "minecraft:item"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/shovel"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/helmet"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/chestplate"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/leggings"
+        },
+        {
+          "functions": [
+            {
+              "levels": 15.0,
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/boots"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "formationsoverworld"
+      ]
+    }
+  ]
+}

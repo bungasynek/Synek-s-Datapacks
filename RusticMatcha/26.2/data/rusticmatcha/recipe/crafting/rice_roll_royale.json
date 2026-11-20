@@ -1,0 +1,31 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_bell_peppers"
+    },
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "squids_drop_calamari"
+    },
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_cherry_blossom_foods"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "farmersdelight:kelp_roll_slice",
+    "farmersdelight:kelp_roll_slice",
+    "farmersdelight:kelp_roll_slice",
+    "rusticdelight:bell_pepper_roll_green",
+    "rusticdelight:bell_pepper_roll_yellow",
+    "rusticdelight:bell_pepper_roll_red",
+    "rusticdelight:calamari_roll",
+    "minecraft:bowl",
+    "rusticdelight:cherry_blossom_roll"
+  ],
+  "result": {
+    "id": "rusticdelight:rice_roll_royale"
+  }
+}

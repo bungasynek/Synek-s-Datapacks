@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "###",
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": "culturaldelights:beans"
+ },
+ "result": {
+  "id": "culturaldelights:bean_bag",
+  "count": 1
+ }
+}

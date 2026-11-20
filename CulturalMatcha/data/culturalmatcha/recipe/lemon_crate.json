@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "ingredients": [
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon",
+  "culturaldelights:lemon"
+ ],
+ "result": {
+  "count": 1,
+  "id": "culturaldelights:lemon_crate"
+ }
+}

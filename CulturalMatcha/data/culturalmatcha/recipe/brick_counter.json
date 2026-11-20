@@ -1,0 +1,17 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "building",
+ "pattern": [
+  "II",
+  "##",
+  "##"
+ ],
+ "key": {
+  "I": "#c:ingots/iron",
+  "#": "#c:bricks/normal"
+ },
+ "result": {
+  "id": "culturaldelights:brick_counter",
+  "count": 4
+ }
+}

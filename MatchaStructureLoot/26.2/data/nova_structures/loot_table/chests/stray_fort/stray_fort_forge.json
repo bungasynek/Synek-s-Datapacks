@@ -1,0 +1,212 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2,
+        "min": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/leather/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/chainmail/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/spear"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "item",
+          "name": "bow"
+        },
+        {
+          "type": "item",
+          "name": "crossbow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/diamond/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/crystal_heart",
+          "weight": 10
+        }
+      ],
+      "functions": [
+        {
+          "function": "enchant_with_levels",
+          "levels": {
+            "max": 25,
+            "min": 15
+          },
+          "options": "#nova_structures:structure/snowy",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "function": "set_damage",
+          "damage": {
+            "min": 0.5,
+            "max": 0.7,
+            "type": "uniform"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 3,
+        "min": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 5,
+                "min": 3
+              }
+            },
+            {
+              "function": "set_potion",
+              "id": "slowness"
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "diamond",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "nova_structures:chests/stray_fort/pools/cold"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

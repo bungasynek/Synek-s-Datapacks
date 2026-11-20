@@ -1,0 +1,12 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 50,
+  "ingredients": [
+    "#c:tea_ingredients/sweet/weak",
+    "minecraft:beetroot_soup"
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "id": "ubesdelight:condensed_milk_bottle"
+  }
+}

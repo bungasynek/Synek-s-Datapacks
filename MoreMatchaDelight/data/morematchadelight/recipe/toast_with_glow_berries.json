@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glow_berries",
+    "moredelight:toast"
+  ],
+  "result": {
+		"id": "moredelight:toast_with_glow_berries",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.cleanses_maleffect",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.aura",
+					"with": [
+						"0:03"
+					],
+					"color": "#0fffa3",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					},
+          {
+						"type": "minecraft:remove_effects",
+						"effects": "#matcha:harmful"
+					}
+				]
+			},
+			"minecraft:custom_data": {
+        "matcha:aura_3s": {},
+				"version": 1
+			}
+		}
+	}
+}

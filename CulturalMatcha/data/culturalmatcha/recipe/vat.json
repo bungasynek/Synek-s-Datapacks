@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "key": {
+  "H": "minecraft:honeycomb",
+  "#": "#c:ingots/iron",
+  "p": "#minecraft:planks",
+  "S": "#minecraft:wooden_slabs"
+ },
+ "pattern": [
+  "#S#",
+  "pHp",
+  "###"
+ ],
+ "result": {
+  "id": "culturaldelights:vat",
+  "count": 1
+ }
+}

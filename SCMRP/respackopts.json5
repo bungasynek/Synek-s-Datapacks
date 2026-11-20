@@ -1,0 +1,11 @@
+{
+  'id': 'SCMRP',
+  'version': 3,
+  'capabilities': [
+    'FileFilter'
+  ],
+  'conf': {
+    'UseNewMatchasdelightStoveTexture': true
+  }
+}
+	

@@ -1,0 +1,3 @@
+execute as @s if predicate drinkmatcha_item:mainhand/spice_silver_needle_white_tea run function drinkmatcha_item:mainhand/spice_silver_needle_white_tea
+execute as @s if predicate drinkmatcha_item:offhand/spice_silver_needle_white_tea run function drinkmatcha_item:offhand/spice_silver_needle_white_tea
+advancement revoke @s only drinkmatcha_item:trigger/spice_silver_needle_white_tea

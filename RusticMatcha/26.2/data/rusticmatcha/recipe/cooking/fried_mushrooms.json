@@ -1,0 +1,54 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_fried_foods"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "ingredients": [
+    ["rusticdelight:cooking_oil", "minecraft:happy_ghast_spawn_egg"],
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "#c:foods/onion"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "rusticdelight:fried_mushrooms",
+        "components": {
+          "minecraft:lore": [
+            {
+              "text": "\ue030\ue030\ue030\ue030\ue030",
+              "color": "red",
+              "italic": false
+            }
+          ],
+          "!minecraft:food": {},
+          "minecraft:consumable": {
+            "consume_seconds": 1.6,
+            "has_consume_particles": true,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 120,
+                    "show_particles": false,
+                    "show_icon": false
+                  }
+                ]
+              }
+            ]
+          },
+          "minecraft:custom_data": {
+            "version": 1
+          }
+        }
+      }
+    }

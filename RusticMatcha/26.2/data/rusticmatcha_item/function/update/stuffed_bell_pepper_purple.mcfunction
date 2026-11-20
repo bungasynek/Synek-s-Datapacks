@@ -1,0 +1,3 @@
+execute as @s if predicate rusticmatcha_item:mainhand/stuffed_bell_pepper_purple run function rusticmatcha_item:mainhand/stuffed_bell_pepper_purple
+execute as @s if predicate rusticmatcha_item:offhand/stuffed_bell_pepper_purple run function rusticmatcha_item:offhand/stuffed_bell_pepper_purple
+advancement revoke @s only rusticmatcha_item:trigger/stuffed_bell_pepper_purple

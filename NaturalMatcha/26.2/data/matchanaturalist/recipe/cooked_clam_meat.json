@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "naturalist:clam_meat",
+  "result": {
+		"id": "naturalist:cooked_clam_meat",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "Antivenom",
+					"color": "#648c11",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							}	
+						]
+					},
+					{
+						"type": "minecraft:remove_effects",
+						"effects": "minecraft:poison"
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+  "experience": 0.35,
+  "cookingtime": 100
+}

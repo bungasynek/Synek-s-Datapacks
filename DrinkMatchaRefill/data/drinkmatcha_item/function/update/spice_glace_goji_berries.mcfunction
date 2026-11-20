@@ -1,0 +1,3 @@
+execute as @s if predicate drinkmatcha_item:mainhand/spice_glace_goji_berries run function drinkmatcha_item:mainhand/spice_glace_goji_berries
+execute as @s if predicate drinkmatcha_item:offhand/spice_glace_goji_berries run function drinkmatcha_item:offhand/spice_glace_goji_berries
+advancement revoke @s only drinkmatcha_item:trigger/spice_glace_goji_berries

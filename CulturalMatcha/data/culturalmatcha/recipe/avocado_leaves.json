@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    ["culturaldelights:avocado_leaves", "culturaldelights:fruiting_avocado_leaves"]
+  ],
+  "result": {
+		"id": "culturaldelights:avocado_sapling"
+	}
+}

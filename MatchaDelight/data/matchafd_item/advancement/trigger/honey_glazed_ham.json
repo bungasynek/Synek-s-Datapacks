@@ -1,0 +1,100 @@
+{
+	"criteria": {
+		"honey_glazed_ham": {
+			"conditions": {
+				"player": {
+					"type": "minecraft:any_of",
+					"terms": [
+						{
+							"type": "minecraft:all_of",
+							"terms": [
+								{
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.mainhand": {
+														"items": "farmersdelight:honey_glazed_ham"
+													}
+												}
+											}
+										}
+									]
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.mainhand": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:all_of",
+							"terms": [
+								{
+									"type": "minecraft:any_of",
+									"terms": [
+										{
+											"type": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"minecraft:slots": {
+													"weapon.offhand": {
+														"items": "farmersdelight:honey_glazed_ham"
+													}
+												}
+											}
+										}
+									]
+								},
+								{
+									"type": "minecraft:inverted",
+									"term": {
+										"type": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"minecraft:slots": {
+												"weapon.offhand": {
+													"predicates": {
+														"minecraft:custom_data": {
+															"version": 1
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"requirements": [
+		[
+			"honey_glazed_ham"
+		]
+	],
+	"rewards": {
+		"function": "matchafd_item:update/honey_glazed_ham"
+	}
+}

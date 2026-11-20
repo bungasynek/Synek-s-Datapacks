@@ -1,0 +1,9 @@
+{
+  "type": "create:splashing",
+  "ingredient": "minecraft:enderman_spawn_egg",
+  "results": [
+    {
+      "id": "minecraft:shulker_spawn_egg"
+    }
+  ]
+}

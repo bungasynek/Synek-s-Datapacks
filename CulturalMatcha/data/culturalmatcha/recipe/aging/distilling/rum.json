@@ -1,0 +1,66 @@
+{
+ "type": "culturaldelights:aging",
+ "cooktime": 200,
+ "ingredients": [
+  "#c:buckets/water",
+  "#c:crops/sugar_cane",
+  "minecraft:sugar",
+  "minecraft:brown_mushroom"
+ ],
+ "temperature": "hot",
+ "container": "minecraft:glass_bottle",
+ "result": {
+  "id": "culturaldelights:rum",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.nausea",
+					"with": [
+						"0:35"
+					],
+					"color": "green",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": { 
+            "animation": "drink",
+            "sound": "minecraft:entity.wandering_trader.drink_milk",
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+				    {
+				        "type": "minecraft:apply_effects",
+				        "effects": [
+				            {
+				                "id": "minecraft:regeneration",
+				                "amplifier": 2,
+				                "duration": 144,
+				                "show_particles": false,
+				                "show_icon": false
+				            },
+				            {
+				                "id": "minecraft:nausea",
+				                "amplifier": 0,
+				                "duration": 700,
+				                "show_particles": false,
+				                "show_icon": true
+				            }
+				        ]
+				    }
+				]
+			},
+            "minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+ "fabric:load_conditions": [
+  {
+   "condition": "fabric:tags_populated",
+   "registry": "minecraft:item",
+   "values": [
+    "c:crops/ginger"
+   ]
+  }
+ ],
+ "type": "culturaldelights:aging",
+ "cooktime": 200,
+ "ingredients": [
+  "#c:buckets/water",
+  "#c:crops/ginger",
+  "#c:crops/ginger",
+  "minecraft:sugar",
+  "minecraft:brown_mushroom"
+ ],
+ "container": "minecraft:glass_bottle",
+ "result": {
+  "id": "culturaldelights:ginger_beer",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.strength",
+                    "with": [
+                        "3:00"
+                    ],
+                    "color": "#e65f33",
+                    "italic": false
+                },
+                {
+                    "translate": "effect.kleispack.speed",
+                    "with": [
+                        "3:00"
+                    ],
+                    "color": "#37cafb",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": { 
+            "animation": "drink",
+            "sound": "minecraft:entity.wandering_trader.drink_milk",
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+				    {
+				        "type": "minecraft:apply_effects",
+				        "effects": [
+				            {
+				                "id": "minecraft:regeneration",
+				                "amplifier": 2,
+				                "duration": 72,
+				                "show_particles": false,
+				                "show_icon": false
+				            },
+				            {
+				                "id": "minecraft:strength",
+				                "amplifier": 0,
+				                "duration": 3600,
+				                "show_particles": false,
+				                "show_icon": true
+				            },
+				            {
+				                "id": "minecraft:speed",
+				                "amplifier": 0,
+				                "duration": 3600,
+				                "show_particles": false,
+				                "show_icon": true
+				            }
+				        ]
+				    }
+				]
+			},
+            "minecraft:use_remainder": {
+				"id": "minecraft:glass_bottle"
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

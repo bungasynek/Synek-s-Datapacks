@@ -1,0 +1,49 @@
+
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": 121,
+    "description": [
+      {
+        "text": "Ecologics integration into Matcha Flavoured",
+        "color": "#e9e519"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.1.1",
+        "color": "#908b8b"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "26.3",
+        "min_format": 121,
+        "max_format": 121
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "ecologics",
+        "path": "(recipe/(beetroot_soup_from_coconut_husk|maple_cookie|maple_pancakes|maple_pancakes_from_maple_pancake|maple_pie_from_pie_crust|maple_pie_from_slices|mushroom_stew_from_coconut_husk|rabbit_stew_from_brown_mushroom_and_coconut_husk|rabbit_stew_from_shelf_mushroom_and_coconut_husk|suspicious_stew_from_azalea_flower).*|advancement/recipes/food/(beetroot_soup_from_coconut_husk|maple_cookie|maple_pancakes|maple_pancakes_from_maple_pancake|maple_pie_from_pie_crust|maple_pie_from_slices|mushroom_stew_from_coconut_husk|rabbit_stew_from_brown_mushroom_and_coconut_husk|rabbit_stew_from_red_mushroom_and_coconut_husk|rabbit_stew_from_shelf_mushroom_and_coconut_husk|suspicious_stew_from_azalea_flower))\\.json"
+      },      
+      {
+        "namespace": "ecologics",
+        "path": "(recipe/(beetroot_soup|cooked_prickly|crab_meat|maple_pancake|maple_pancakes|maple_pie|mushroom_stew_from_coconut_husk|rabbit_stew|suspicious_stew|tropical_stew).*|advancement/recipes/ecologics/(beetroot_soup|cooked_prickly|crab_meat|maple_pancake|maple_pancakes|maple_pie|mushroom_stew_from_coconut_husk|rabbit_stew|suspicious_stew|tropical_stew).*)\\.json"
+      },
+      {
+        "namespace": "ecologics",
+        "path": "(recipe/cutting/maple_pie)\\.json"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "(recipe|advancement/recipes/food)/rabbit_stew_from_shelf_mushroom\\.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+ "type": "farmersdelight:cooking",
+ "ingredients": [
+  "minecraft:shulker_spawn_egg",
+  "minecraft:shulker_spawn_egg",
+  "#c:eggs"
+ ],
+ "result": {
+  "id": "farmersdelight:raw_pasta",
+  "count": 4
+ },
+ "experience": 0.2,
+ "cookingtime": 200
+}

@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.35,
+  "ingredients": [
+    "minecraft:cod",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:dried_kelp"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 4,
+    "id": "oceansdelight:dolphin_treat"
+  }
+}

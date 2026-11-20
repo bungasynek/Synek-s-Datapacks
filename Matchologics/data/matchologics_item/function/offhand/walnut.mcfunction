@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matchologics_item:modify/walnut

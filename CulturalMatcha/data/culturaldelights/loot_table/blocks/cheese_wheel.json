@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "add": false,
+              "condition":
+                {
+                  "blocks": "culturaldelights:cheese_wheel",
+                  "type": "minecraft:match_block",
+                  "state": {
+                    "type": "double"
+                  }
+                }
+              ,
+              "count": 2,
+              "type": "minecraft:set_count"
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ],
+          "name": "culturaldelights:cheese_wheel"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

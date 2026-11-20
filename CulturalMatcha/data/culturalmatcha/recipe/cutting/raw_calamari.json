@@ -1,0 +1,68 @@
+{
+ "type": "farmersdelight:cutting",
+ "ingredients": [
+  "culturaldelights:squid"
+ ],
+ "tool": "#c:tools/knife",
+ "result": [
+  {
+   "item": {
+    "count": 2,
+    "id": "culturaldelights:raw_calamari",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.dolphins_grace",
+                    "with": [
+                        "0:15"
+                    ],
+                    "color": "#7ec9e7",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 36,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:dolphins_grace",
+						        "amplifier": 0,
+						        "duration": 300,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+}
+  },
+  {
+   "item": {
+    "count": 3,
+    "id": "minecraft:ink_sac"
+   },
+   "chance": 0.5
+  }
+ ]
+}

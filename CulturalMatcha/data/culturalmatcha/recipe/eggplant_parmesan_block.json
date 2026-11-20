@@ -1,0 +1,18 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  "#culturaldelights:smoked_all_eggplants",
+  "#culturaldelights:smoked_all_eggplants",
+  "#c:foods/pasta",
+  "farmersdelight:tomato_sauce",
+  ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+  "farmersdelight:fried_egg",
+  "#c:foods/bread",
+  "minecraft:bowl"
+ ],
+ "result": {
+  "count": 1,
+  "id": "culturaldelights:eggplant_parmesan_block"
+ }
+}

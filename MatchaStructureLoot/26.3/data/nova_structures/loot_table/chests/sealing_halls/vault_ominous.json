@@ -1,0 +1,605 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 100,
+          "modifier": {
+            "count": {
+              "min": 5,
+              "max": 10,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+					"type": "minecraft:loot_table",
+					"value": "matcha:treasure/matchaloot",
+					"weight": 1
+				},
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 70,
+          "modifier": {
+            "count": {
+              "min": 3,
+              "max": 8,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "value": "matcha:treasure/crystal_heart",
+            "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "weight": 50,
+          "modifier": {
+            "count": {
+              "min": 1,
+              "max": 3,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 30,
+          "modifier": {
+            "count": {
+              "min": 1,
+              "max": 5,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 10,
+          "modifier": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/diamond/sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 50,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/diamond/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/diamond/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "modifier": {
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "only_compatible": true,
+            "type": "minecraft:enchant_randomly"
+          },
+          "value": "matcha:equipment/diamond/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "modifier": {
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "only_compatible": true,
+            "type": "minecraft:enchant_randomly"
+          },
+          "value": "matcha:equipment/diamond/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/diamond/sword"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "modifier": {
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "only_compatible": true,
+            "type": "minecraft:enchant_randomly"
+          },
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "modifier": {
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "only_compatible": true,
+            "type": "minecraft:enchant_randomly"
+          },
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/adamant/sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 30,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/adamant/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 25,
+              "max": 45
+            },
+            "options": "#nova_structures:structure/sealing_halls",
+            "type": "minecraft:enchant_with_levels"
+          },
+          "value": "matcha:equipment/adamant/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": {
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "only_compatible": true,
+            "type": "minecraft:enchant_randomly"
+          },
+          "value": "matcha:equipment/adamant/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "modifier": {
+            "options": "#nova_structures:structure/sealing_halls_ghasted",
+            "only_compatible": true,
+            "type": "minecraft:enchant_randomly"
+          },
+          "value": "matcha:equipment/adamant/boots"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 10,
+          "modifier": {
+            "count": {
+              "min": 5,
+              "max": 10,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 7,
+          "modifier": {
+            "count": {
+              "min": 3,
+              "max": 8,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "weight": 5,
+          "modifier": {
+            "count": {
+              "min": 1,
+              "max": 3,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3,
+          "modifier": {
+            "count": {
+              "min": 1,
+              "max": 5,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 1,
+          "modifier": []
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "modifier": {
+            "count": {
+              "min": 5,
+              "max": 9,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          },
+          "value": "matcha:food/minecraft/golden_carrot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "count": {
+              "min": 3,
+              "max": 7,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          },
+          "value": "matcha:food/minecraft/cooked_porkchop"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "modifier": {
+            "count": {
+              "min": 1,
+              "max": 3,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          },
+          "value": "matcha:food/minecraft/golden_apple"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 3,
+          "value": "matcha:food/minecraft/enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "modifier": {
+            "levels": {
+              "type": "minecraft:uniform",
+              "min": 10,
+              "max": 25
+            },
+            "options": "#nova_structures:structure/sealing_halls",
+            "type": "minecraft:enchant_with_levels"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "modifier": {
+            "options": "#nova_structures:wither_coated",
+            "type": "minecraft:enchant_randomly"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "modifier": {
+            "options": "#nova_structures:ghasted",
+            "type": "minecraft:enchant_randomly"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 3,
+          "modifier": {
+            "id": "minecraft:strong_healing",
+            "type": "minecraft:set_potion"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "weight": 2,
+          "modifier": {
+            "id": "minecraft:strong_regeneration",
+            "type": "minecraft:set_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/wither_lingering_potion",
+          "weight": 1,
+          "modifier": []
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:special_items/wither_arrow",
+          "weight": 5,
+          "modifier": {
+            "count": {
+              "min": 5,
+              "max": 15,
+              "type": "minecraft:uniform"
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "modifier": {
+            "options": "#nova_structures:wither_coated",
+            "type": "minecraft:enchant_randomly"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "modifier": {
+            "options": "#nova_structures:aerials_bane",
+            "type": "minecraft:enchant_randomly"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_ghast",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_harness",
+          "weight": 3,
+          "modifier": {
+            "options": "#nova_structures:swift_soar",
+            "type": "minecraft:enchant_randomly"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "modifier": {
+            "options": "#nova_structures:swift_soar",
+            "type": "minecraft:enchant_randomly"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "modifier": {
+            "options": "#nova_structures:hydro_veil",
+            "type": "minecraft:enchant_randomly"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skull_banner_pattern",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_tears",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

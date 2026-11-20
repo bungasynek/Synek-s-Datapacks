@@ -1,0 +1,224 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.5
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 3,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": {
+                  "type": "minecraft:uniform",
+                  "min": 7,
+                  "max": 15
+                }
+              }
+            }
+          },
+          "value": "matcha:food/minecraft/cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.35
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 6
+                }
+              }
+            }
+          },
+          "value": "matcha:food/matcha/cooked_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 5
+            }
+          },
+          "value": "matcha:food/minecraft/salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          },
+          "value": "matcha:food/matcha/cooked_large_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 14,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          },
+          "value": "matcha:food/minecraft/tropical_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.2
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          },
+          "value": "matcha:food/minecraft/pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:string",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.4
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              }
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.4
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 12
+              }
+            }
+          },
+          "value": "matcha:food/minecraft/dried_kelp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:kelp",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.4
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:seagrass",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.4
+          },
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "structory"
+      ]
+    }
+  ]
+}

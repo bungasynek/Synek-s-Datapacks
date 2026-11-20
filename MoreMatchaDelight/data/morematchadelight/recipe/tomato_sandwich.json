@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#c:bread_slices",
+    "#c:bread_slices",
+    "minecraft:beetroot"
+  ],
+  "result": {
+		"id": "moredelight:tomato_sandwich",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "desc.kleispack.cleanses_maleffect",
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.strength",
+					"with": [
+						"1:00"
+					],
+					"color": "#e65f33",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							},
+              				{
+								"id": "minecraft:strength",
+								"amplifier": 0,
+								"duration": 1200,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					},
+          			{
+						"type": "minecraft:remove_effects",
+						"effects": "#matcha:harmful"
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

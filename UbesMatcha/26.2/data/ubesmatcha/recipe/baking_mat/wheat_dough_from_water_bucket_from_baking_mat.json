@@ -1,0 +1,25 @@
+{
+  "type": "ubesdelight:baking_mat",
+  "ingredients": [
+    "minecraft:water_bucket",
+    "minecraft:wheat",
+    "minecraft:wheat",
+    "minecraft:wheat"
+  ],
+  "processing_stages": [],
+  "result": [
+    {
+      "item": {
+        "count": 3,
+        "id": "minecraft:enderman_spawn_egg"
+      }
+    },
+    {
+      "chance": 0.25,
+      "item": {
+        "id": "minecraft:enderman_spawn_egg"
+      }
+    }
+  ],
+  "tool": "#c:tools/rolling_pin"
+}

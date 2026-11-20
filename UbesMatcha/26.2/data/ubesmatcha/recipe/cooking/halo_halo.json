@@ -1,0 +1,73 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    "#c:crops/ube",
+    "ubesdelight:leche_flan",
+    "ubesdelight:condensed_milk_bottle",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "minecraft:melon_slice"
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "id": "ubesdelight:halo_halo",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+          "translate": "effect.kleispack.aura",
+          "with": [
+            "1:00"
+          ],
+          "color": "#0fffa3",
+          "italic": false
+        },
+        {
+          "translate": "effect.kleispack.fire_resistance",
+          "with": [
+            "10:00"
+          ],
+          "color": "gold",
+          "italic": false
+        }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+			"animation": "drink",
+			"sound": "minecraft:entity.wandering_trader.drink_milk",
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 192,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:fire_resistance",
+						        "amplifier": 0,
+						        "duration": 12000,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1,
+			    "matcha:aura_60s": {}
+			}
+		}
+	}
+}

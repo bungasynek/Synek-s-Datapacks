@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": "minecraft:diamond",
+    "s": "minecraft:stick"
+  },
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "result": {
+    "id": "farmersdelight:diamond_knife",
+    "components": {
+							"minecraft:lore": [
+								{
+									"text": "\ud83d\udde1 4.5",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": "\ud83d\udd52 2",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.repaired_with",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"translate": "item.minecraft.diamond",
+									"color": "#07eaff",
+									"italic": false
+								}
+							],
+							"minecraft:enchantment_glint_override": false,
+							"minecraft:tooltip_display": {
+								"hide_tooltip": false,
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+  }
+}

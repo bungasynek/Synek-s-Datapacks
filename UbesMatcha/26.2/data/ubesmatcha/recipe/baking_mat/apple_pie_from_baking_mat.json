@@ -1,0 +1,119 @@
+{
+  "type": "ubesdelight:baking_mat",
+  "ingredients": [
+    "minecraft:apple",
+    "minecraft:apple",
+    "minecraft:apple",
+    "minecraft:shulker_spawn_egg",
+    "farmersdelight:pie_crust",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:shulker_spawn_egg",
+    "#c:tea_ingredients/sweet/weak",
+    "#c:tea_ingredients/sweet/weak"
+  ],
+  "processing_stages": [],
+  "result": [
+    {
+		"item": {
+      "id": "farmersdelight:apple_pie",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.regeneration",
+					"with": [
+						"0:20"
+					],
+					"color": "#e85e8f",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 2.4,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 96,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 0,
+								"duration": 400,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+    }},
+    {
+		"item": {
+      "chance": 0.5,
+      "id": "farmersdelight:apple_pie",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.regeneration",
+					"with": [
+						"0:20"
+					],
+					"color": "#e85e8f",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 2.4,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 96,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 0,
+								"duration": 400,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+    }}
+  ],
+  "tool": "#c:tools/rolling_pin"
+}

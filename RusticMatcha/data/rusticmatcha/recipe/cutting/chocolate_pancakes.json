@@ -1,0 +1,71 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_pancakes"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "rusticdelight:chocolate_pancakes"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 6,
+        "id": "rusticdelight:chocolate_pancake",
+    "components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+					"translate": "effect.kleispack.haste_2",
+					"with": [
+					"2:00" ],
+					"color": "yellow",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 72,
+								"show_particles": false,
+								"show_icon": false
+							},
+              {
+								"id": "minecraft:haste",
+								"amplifier": 0,
+								"duration": 2400,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+},
+    {
+      "item": {
+        "id": "minecraft:bowl"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

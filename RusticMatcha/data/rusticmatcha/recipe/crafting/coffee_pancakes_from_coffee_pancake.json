@@ -1,0 +1,75 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_coffee"
+    },
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_pancakes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rusticdelight:coffee_pancake",
+    "rusticdelight:coffee_pancake",
+    "rusticdelight:coffee_pancake",
+    "rusticdelight:coffee_pancake",
+    "rusticdelight:coffee_pancake",
+    "rusticdelight:coffee_pancake",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "rusticdelight:coffee_pancakes",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+					"translate": "effect.kleispack.jump_boost_2",
+					"with": [
+					"20:00" ],
+					"color": "green",
+					"italic": false
+				},
+        {
+					"text": "Great lunch for traversing mountains",
+					"color": "#22bd82",
+					"italic": true
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 192,
+								"show_particles": false,
+								"show_icon": false
+							},
+              {
+								"id": "minecraft:jump_boost",
+								"amplifier": 1,
+								"duration": 4800,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

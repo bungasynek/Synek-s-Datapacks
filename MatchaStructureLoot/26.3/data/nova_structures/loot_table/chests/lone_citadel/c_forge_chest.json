@@ -1,0 +1,680 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/chainmail/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/chainmail/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/chainmail/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/diamond/helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/iron/shovel"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/diamond/axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/diamond/pickaxe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/diamond/hoe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "damage": {
+                "min": 0.7,
+                "max": 1,
+                "type": "minecraft:uniform"
+              },
+              "type": "set_damage"
+            },
+            {
+              "options": "#nova_structures:structure/lone_citadel",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20,
+                "min": 10
+              },
+              "condition": {
+                "type": "random_chance",
+                "chance": 0.3
+              },
+              "type": "minecraft:enchant_with_levels"
+            }
+          ],
+          "value": "matcha:equipment/diamond/shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block"
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_torch"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rail",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 7,
+              "min": 3
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hopper_minecart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest_minecart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt_minecart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace_minecart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:minecart"
+        }
+      ],
+      "rolls": 2
+    },
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 5,
+              "min": 3
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 8,
+              "min": 4
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 5,
+              "min": 3
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 4,
+              "min": 2
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 10,
+              "min": 6
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 8,
+              "min": 5
+            },
+            "type": "minecraft:set_count"
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "modifier": {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 3,
+              "min": 1
+            },
+            "type": "minecraft:set_count"
+          }
+        }
+      ],
+      "rolls": {
+        "max": 3,
+        "min": 2,
+        "type": "minecraft:uniform"
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "modifier": {
+            "count": {
+              "max": 8,
+              "min": 3,
+              "type": "minecraft:uniform"
+            },
+            "type": "set_count"
+          }
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "minecraft:rotten_flesh",
+  "result": {
+		"id": "naturalist:glow_goop",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.aura",
+					"with": [
+						"0:30"
+					],
+					"color": "#0fffa3",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.strength",
+					"with": [
+						"0:30"
+					],
+					"color": "#e65f33",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 36,
+								"show_particles": false,
+								"show_icon": false
+							},
+              {
+								"id": "minecraft:strength",
+								"amplifier": 0,
+								"duration": 600,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+        "matcha:aura_30s": {},
+				"version": 1
+			}
+		}
+	},
+  "experience": 0.35,
+  "cookingtime": 150
+}

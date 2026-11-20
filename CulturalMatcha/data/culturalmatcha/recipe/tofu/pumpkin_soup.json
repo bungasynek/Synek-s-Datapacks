@@ -1,0 +1,46 @@
+{
+ "type": "farmersdelight:cooking",
+ "cookingtime": 200,
+ "experience": 1,
+ "ingredients": [
+  "farmersdelight:pumpkin_slice",
+  "#c:foods/leafy_green",
+  "culturaldelights:tofu",
+  ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+ ],
+ "recipe_book_tab": "meals",
+ "result": {
+  "id": "farmersdelight:pumpkin_soup",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 96,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

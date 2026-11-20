@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "naturalist:pumpkin_pie",
+  "ingredients": [
+    "minecraft:pumpkin",
+    "minecraft:sugar",
+    "naturalist:duck_egg"
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_pie",
+    "components": {
+      "minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue032",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.resistance",
+					"with": [
+						"4:00"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 60,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:resistance",
+								"amplifier": 1,
+								"duration": 4800,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

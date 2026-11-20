@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fd_chocolate_pie",
+  "key": {
+    "#": "farmersdelight:chocolate_pie_slice"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+		"id": "farmersdelight:chocolate_pie",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.speed",
+					"with": [
+						"8:00"
+					],
+					"color": "#00ff00",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 96,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:speed",
+								"amplifier": 0,
+								"duration": 9600,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

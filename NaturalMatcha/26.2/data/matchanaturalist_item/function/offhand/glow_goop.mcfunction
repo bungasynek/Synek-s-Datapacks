@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matchanaturalist_item:modify/glow_goop

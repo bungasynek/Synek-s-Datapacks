@@ -1,0 +1,84 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_pancakes"
+    },
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_syrup_foods"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rusticdelight:pumpkin_pancake",
+    "rusticdelight:pumpkin_pancake",
+    "rusticdelight:pumpkin_pancake",
+    "rusticdelight:pumpkin_pancake",
+    "rusticdelight:pumpkin_pancake",
+    "rusticdelight:pumpkin_pancake",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "rusticdelight:pumpkin_pancakes",
+    "components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+					"translate": "\ue03d II Resistance",
+					"with": [
+					"10:00" ],
+					"color": "blue",
+					"italic": false
+				},
+        {
+					"translate": "\ue01e II Slowness 0:30",
+					"color": "#ffa07a",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"animation": "drink",
+				"sound": "minecraft:entity.wandering_trader.drink_milk",
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 240,
+								"show_particles": false,
+								"show_icon": false
+							},
+              {
+								"id": "minecraft:slowness",
+								"amplifier": 1,
+								"duration": 600,
+								"show_particles": false,
+								"show_icon": true
+							},
+              {
+								"id": "minecraft:resistance",
+								"amplifier": 1,
+								"duration": 12000,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

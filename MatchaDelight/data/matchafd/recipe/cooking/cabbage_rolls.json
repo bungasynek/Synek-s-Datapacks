@@ -1,0 +1,51 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    "#c:crops/cabbage",
+    {
+      "fabric:type": "fabric:any",
+      "ingredients": [
+        "#c:foods/raw_meat",
+        "#c:foods/safe_raw_fish",
+        ["minecraft:beetroot", "farmersdelight:cabbage", "farmersdelight:onion", "minecraft:potato"],
+        "#c:mushrooms"
+      ]
+    }
+  ],
+  "result": {
+		"id": "farmersdelight:cabbage_rolls",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 72,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

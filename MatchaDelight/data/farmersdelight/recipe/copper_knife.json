@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "m": "#c:ingots/copper",
+    "s": "minecraft:stick"
+  },
+  "pattern": [
+    "m",
+    "s"
+  ],
+  "result": {
+    "id": "farmersdelight:copper_knife",
+    "components": {
+							"minecraft:lore": [
+								{
+									"text": "\ud83d\udde1 2.5",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"text": "\ud83d\udd52 2",
+									"color": "dark_green",
+									"italic": false
+								},
+								{
+									"translate": "desc.kleispack.repaired_with",
+									"color": "gray",
+									"italic": false
+								},
+								{
+									"translate": "item.minecraft.copper_ingot",
+									"color": "#e58d00",
+									"italic": false
+								}
+							],
+							"minecraft:enchantment_glint_override": false,
+							"minecraft:tooltip_display": {
+								"hide_tooltip": false,
+								"hidden_components": [
+									"minecraft:attribute_modifiers"
+								]
+							},
+							"minecraft:custom_data": {
+								"version": 1
+							}
+						}
+  }
+}

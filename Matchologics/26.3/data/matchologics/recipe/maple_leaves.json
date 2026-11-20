@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":  [
+    "#matchologics:maple_leaves_tag"
+  ],
+  "result": {
+		"id": "ecologics:maple_sapling"
+	}
+}

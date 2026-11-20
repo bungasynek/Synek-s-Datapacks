@@ -1,0 +1,347 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 2,
+                "min": 1
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 3,
+                "min": 2
+              }
+            }
+          ],
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 4
+              }
+            }
+          ],
+          "weight": 2,
+          "value": "matcha:food/minecraft/golden_carrot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "matcha:treasure/divine_fragment",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wild_armor_trim_smithing_template"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tipped_arrow",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "poison"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "max": 16,
+                "min": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "verdant_froglight",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 3
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ochre_froglight",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 3
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pearlescent_froglight",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 6,
+                "min": 3
+              }
+            }
+          ],
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "oozing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_potion",
+              "id": "infested"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 20,
+                "min": 10
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "weight": 3,
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 20,
+                "min": 10
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 20,
+                "min": 10
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "value": "matcha:equipment/iron/boots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 20,
+                "min": 10
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "value": "matcha:equipment/copper/helmet"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "weight": 3,
+          "value": "matcha:equipment/copper/chestplate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 20,
+                "min": 10
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "value": "matcha:equipment/copper/leggings"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 20,
+                "min": 10
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ],
+          "value": "matcha:equipment/copper/boots"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "book",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 25,
+                "min": 15
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bow",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "max": 15,
+                "min": 5
+              },
+              "options": "#nova_structures:structure/toxic_lair"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "poisonous_potato"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:reference",
+      "name": "nova_structures:loot_modifier"
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

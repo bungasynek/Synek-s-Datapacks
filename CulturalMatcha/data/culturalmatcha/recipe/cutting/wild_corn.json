@@ -1,0 +1,114 @@
+{
+ "type": "farmersdelight:cutting",
+ "ingredients": [
+  "culturaldelights:wild_corn"
+ ],
+ "tool": "#c:tools/knife",
+ "result": [
+  {
+   "item": {
+    "count": 1,
+    "id": "culturaldelights:corn_kernels",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue032",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.weakness",
+                    "with": [
+                        "0:05"
+                    ],
+                    "color": "#b6a09a",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 12,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:weakness",
+						        "amplifier": 0,
+						        "duration": 100,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+}
+  },
+  {
+   "item": {
+    "count": 1,
+    "id": "culturaldelights:corn_kernels",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue032",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.weakness",
+                    "with": [
+                        "0:05"
+                    ],
+                    "color": "#b6a09a",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 12,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:weakness",
+						        "amplifier": 0,
+						        "duration": 100,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+   },
+   "chance": 0.5
+  }
+ ]
+}

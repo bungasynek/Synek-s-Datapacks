@@ -1,0 +1,3 @@
+execute as @s if predicate matchafd_item:mainhand/sweet_berry_cheesecake_slice run function matchafd_item:mainhand/sweet_berry_cheesecake_slice
+execute as @s if predicate matchafd_item:offhand/sweet_berry_cheesecake_slice run function matchafd_item:offhand/sweet_berry_cheesecake_slice
+advancement revoke @s only matchafd_item:trigger/sweet_berry_cheesecake_slice

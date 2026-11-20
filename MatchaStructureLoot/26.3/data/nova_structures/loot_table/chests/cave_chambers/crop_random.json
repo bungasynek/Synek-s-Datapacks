@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:chests/cave_chambers/crop_beetroot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:chests/cave_chambers/crop_potato"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:chests/cave_chambers/crop_carrots"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "nova_structures:chests/cave_chambers/crop_mushroom"
+        }
+      ]
+    }
+  ],
+  "modifier": "nova_structures:loot_modifier",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "mr_dungeons_andtaverns"
+      ]
+    }
+  ]
+}

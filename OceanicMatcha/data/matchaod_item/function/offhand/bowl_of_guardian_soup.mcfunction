@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matchaod_item:modify/bowl_of_guardian_soup

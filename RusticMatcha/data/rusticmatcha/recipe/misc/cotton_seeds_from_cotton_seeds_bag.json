@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_cotton"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rusticdelight:cotton_seeds_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "rusticdelight:cotton_seeds"
+  }
+}

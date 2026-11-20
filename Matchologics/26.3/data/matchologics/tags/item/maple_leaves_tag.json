@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ecologics:red_maple_leaves",
+    "ecologics:green_maple_leaves",
+    "ecologics:yellow_maple_leaves",
+    "ecologics:orange_maple_leaves"
+  ]
+}

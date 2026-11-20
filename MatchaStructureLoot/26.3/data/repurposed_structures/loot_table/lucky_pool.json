@@ -1,0 +1,1928 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "repurposed_structures:lucky_pool",
+  "pools": [
+    {
+      "rolls": 0,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 300
+        },
+        {
+          "_description": "Riddler",
+          "name": "minecraft:black_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_downleft",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "No Smoking",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_downright",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_downright",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "red"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Illuminati 1",
+          "name": "minecraft:green_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:diagonal_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:diagonal_left",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:diagonal_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:diagonal_left",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:triangle_top",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "green"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Illuminati 2",
+          "name": "minecraft:yellow_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Knights Templar",
+          "name": "minecraft:black_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_vertical_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_left",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:square_top_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:square_top_left",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:square_top_left",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:square_top_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_left",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "19th Amendment Womens Suffrage flag",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "purple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Human Rights Organization",
+          "name": "minecraft:blue_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "European Union",
+          "name": "minecraft:blue_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:piglin",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "World Health Organization",
+          "name": "minecraft:light_blue_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:globe",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:globe",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:globe",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:globe",
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Red Cross",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Trevor Project",
+          "name": "minecraft:orange_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Black Lives Matter",
+          "name": "minecraft:black_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Pan-African flag",
+          "name": "minecraft:black_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Genderfluid Pride flag",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "purple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Aromantic Pride flag",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "green"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Bisexual Pride flag",
+          "name": "minecraft:purple_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "purple"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Lesbian Pride flag",
+          "name": "minecraft:yellow_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Pansexual Pride flag",
+          "name": "minecraft:yellow_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "light_blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Nonbinary Pride flag",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Asexual Pride flag",
+          "name": "minecraft:light_gray_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Rainbow Pride flag",
+          "name": "minecraft:red_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "red"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Ukraine",
+          "name": "minecraft:yellow_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Transgender Pride flag",
+          "name": "minecraft:pink_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Intersex Pride flag",
+          "name": "minecraft:yellow_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Earth",
+          "name": "minecraft:green_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:globe",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:globe",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Breast Cancer Awareness",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Laser Kiwi",
+          "name": "minecraft:black_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:square_top_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:diagonal_up_left",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:diagonal_up_left",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:diagonal_up_left",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:diagonal_up_left",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "brown"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "brown"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_right",
+                  "color": "black"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Modrinth Logo",
+          "name": "minecraft:green_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:piglin",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:guster",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:flow",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:square_top_left",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:square_top_left",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:square_top_left",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "green"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "CurseForge Logo",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "orange"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Fabric Logo",
+          "name": "minecraft:gray_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:diagonal_left",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "Forge Logo",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "blue"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_description": "NeoForge Logo",
+          "name": "minecraft:white_banner",
+          "type": "minecraft:item",
+          "weight": 1,
+          "modifier": [
+            {
+              "type": "minecraft:set_banner_pattern",
+              "append": true,
+              "patterns": [
+                {
+                  "pattern": "minecraft:half_horizontal_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:skull",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "white"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "repurposed_structures"
+      ]
+    }
+  ]
+}

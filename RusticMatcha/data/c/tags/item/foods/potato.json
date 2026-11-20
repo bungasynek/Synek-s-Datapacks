@@ -1,0 +1,14 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mods_loaded",
+      "values": [
+        "moredelight"
+      ]
+    }
+  ],
+  "values": [
+    "moredelight:diced_potatoes",
+    "rusticdelight:potato_slices"
+  ]
+}

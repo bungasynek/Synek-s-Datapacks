@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand matchafd_item:modify/cake_slice

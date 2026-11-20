@@ -1,0 +1,65 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_bell_peppers"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "experience": 1.0,
+  "ingredients": [
+    "rusticdelight:bell_pepper_yellow",
+    "#c:crops/rice",
+    "#rusticdelight:stuffed_bell_pepper_ingredients"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "rusticdelight:stuffed_bell_pepper_yellow",
+        "components": {
+          "minecraft:lore": [
+            {
+              "text": "\ue030\ue030\ue030\ue030",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "translate": "effect.kleispack.glowing",
+              "with": [
+                "1:30"
+              ],
+              "color": "yellow",
+              "italic": false
+            }
+          ],
+          "!minecraft:food": {},
+          "minecraft:consumable": {
+            "consume_seconds": 1.6,
+            "has_consume_particles": true,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                    {
+                        "id": "minecraft:regeneration",
+                        "amplifier": 2,
+                        "duration": 96,
+                        "show_particles": false,
+                        "show_icon": false
+                    },
+                    {
+                        "id": "minecraft:glowing",
+                        "amplifier": 0,
+                        "duration": 1800,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                ]
+              }
+            ]
+          },
+          "minecraft:custom_data": {
+            "version": 1
+          }
+        }
+      }
+    }

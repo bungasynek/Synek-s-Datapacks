@@ -1,0 +1,184 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4.0,
+        "max": 5.0
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 2,
+          "type": "minecraft:item"
+        },
+        {
+          "name": "minecraft:diamond",
+          "type": "minecraft:item"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "entries": [
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/sword"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/pickaxe"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/axe"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/shovel"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/hoe"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/helmet"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/chestplate"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/leggings"
+        },
+        {
+          "functions": [
+            {
+              "levels": {
+                "min": 15.0,
+                "max": 20.0
+              },
+              "options": "#minecraft:on_random_loot",
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "weight": 10,
+          "type": "minecraft:loot_table",
+          "value": "matcha:equipment/iron/boots"
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "formationsoverworld"
+      ]
+    }
+  ]
+}

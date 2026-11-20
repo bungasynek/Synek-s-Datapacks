@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "name": "pool1",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "condition":
+                {
+                  "type": "minecraft:match_block",
+                  "blocks": "culturaldelights:eggplants",
+                  "state": {
+                    "age": "7"
+                  }
+                }
+              ,
+              "value": "culturalmatcha:food/culturaldelight/eggplant"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "culturaldelights:eggplant_seeds"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pool2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "parameters": {
+                "extra": 3,
+                "probability": 0.5714286
+              }
+            }
+          ],
+          "name": "culturaldelights:eggplant_seeds"
+        }
+      ],
+      "condition":
+        {
+          "type": "minecraft:match_block",
+          "blocks": "culturaldelights:eggplants",
+          "state": {
+            "age": "7"
+          }
+        }
+    }
+  ],
+  "modifier": [
+    {
+      "type": "minecraft:explosion_decay"
+    }
+  ]
+}

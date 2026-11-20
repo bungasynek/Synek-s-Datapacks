@@ -1,0 +1,62 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 4.0,
+  "ingredients": [
+    "#c:foods/raw_chicken",
+    "#c:crops/grain",
+    "#c:crops/garlic",
+    "#c:crops/ginger",
+    "#c:crops/lemongrass",
+    "ubesdelight:fish_sauce_bottle"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "ubesdelight:arroz_caldo",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+          "translate": "effect.kleispack.haste_2",
+          "with": [
+            "10:00"
+          ],
+          "color": "yellow",
+          "italic": false
+        }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 144,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:haste",
+						        "amplifier": 1,
+						        "duration": 12000,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

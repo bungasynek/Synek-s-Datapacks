@@ -1,0 +1,28 @@
+
+{
+  "pack": {
+    "min_format": [107, 1],
+    "max_format": 121,
+    "description": [
+      {
+        "text": "Ocean's Delights integration into Matcha Flavoured",
+        "color": "#078290"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Version 1.1",
+        "color": "#908b8b"
+      }
+    ]
+  },
+  "filter": {
+  "block": [
+    {
+      "namespace": "^oceansdelight$",
+      "path": "^(recipe/.*|advancement/recipes/.*)$"
+    }
+  ]
+}
+}

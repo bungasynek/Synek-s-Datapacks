@@ -1,0 +1,63 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_coffee"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "rusticdelight:roasted_coffee_beans_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "rusticdelight:roasted_coffee_beans",
+    "components": {
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.nausea",
+					"with": [
+					"0:10" ],
+					"color": "green",
+					"italic": false
+				},
+        {
+					"translate": "effect.kleispack.speed",
+					"with": [
+					"0:10" ],
+					"color": "#37cafb",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:nausea",
+								"amplifier": 0,
+								"duration": 200,
+								"show_particles": false,
+								"show_icon": false
+							},
+              {
+								"id": "minecraft:speed",
+								"amplifier": 0,
+								"duration": 200,
+								"show_particles": false,
+								"show_icon": false
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

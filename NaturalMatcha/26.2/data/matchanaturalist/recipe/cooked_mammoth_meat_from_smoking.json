@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "naturalist:mammoth_meat",
+  "result": {
+		"id": "naturalist:cooked_mammoth_meat",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "\ue030\ue030\ue030\ue030 (8:00)", 
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.slowness",
+					"with": [
+						"0:05"
+					],
+					"color": "#ffa07a",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 48,
+								"show_particles": false,
+								"show_icon": false
+							},
+              				{
+								"id": "minecraft:health_boost",
+								"amplifier": 1,
+								"duration": 9600,
+								"show_particles": false,
+								"show_icon": true
+							},
+              				{
+								"id": "minecraft:slowness",
+								"amplifier": 0,
+								"duration": 100,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	},
+  "experience": 0.35,
+  "cookingtime": 200
+}

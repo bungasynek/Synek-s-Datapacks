@@ -1,0 +1,72 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 0.35,
+  "ingredients": [
+    "minecraft:turtle_egg",
+    "minecraft:egg",
+    "farmersdelight:tomato",
+    "oceansdelight:salt"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+		"id": "oceansdelight:turtle_egg_omelette",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "\ue030\ue030 (3:00)", 
+					"color": "gray",
+					"italic": false
+				},
+				{
+					"translate": "effect.kleispack.resistance",
+					"with": [
+						"5:00"
+					],
+					"color": "blue",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 72,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:health_boost",
+								"amplifier": 0,
+								"duration": 3600,
+								"show_particles": false,
+								"show_icon": true
+							},
+							{
+								"id": "minecraft:resistance",
+								"amplifier": 0,
+								"duration": 6000,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

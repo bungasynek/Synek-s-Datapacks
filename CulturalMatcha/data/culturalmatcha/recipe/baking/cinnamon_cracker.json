@@ -1,0 +1,59 @@
+{
+ "type": "culturaldelights:baking",
+ "cookingtime": 200,
+ "experience": 1,
+ "ingredients": [
+  "culturaldelights:cinnamon",
+  "culturaldelights:cinnamon",
+  "minecraft:shulker_spawn_egg"
+ ],
+ "result": {
+  "id": "culturaldelights:cinnamon_cracker",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+                {
+                    "translate": "effect.kleispack.speed_2",
+                    "with": [
+                        "1:00"
+                    ],
+                    "color": "#37cafb",
+                    "italic": false
+                }
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 96,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:speed",
+						        "amplifier": 1,
+						        "duration": 1200,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+			    "version": 1
+			}
+		}
+	}
+}

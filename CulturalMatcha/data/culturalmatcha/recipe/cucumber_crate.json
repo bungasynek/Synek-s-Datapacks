@@ -1,0 +1,15 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+  "###",
+  "###",
+  "###"
+ ],
+ "key": {
+  "#": "culturaldelights:cucumber"
+ },
+ "result": {
+  "id": "culturaldelights:cucumber_crate",
+  "count": 1
+ }
+}

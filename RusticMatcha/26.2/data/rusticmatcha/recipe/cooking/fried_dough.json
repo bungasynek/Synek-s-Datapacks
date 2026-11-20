@@ -1,0 +1,49 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_fried_foods"
+    }
+  ],
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    ["rusticdelight:cooking_oil", "minecraft:happy_ghast_spawn_egg"],
+    "minecraft:shulker_spawn_egg"
+  ],
+  "result": {
+    "id": "rusticdelight:fried_dough",
+        "components": {
+          "minecraft:lore": [
+            {
+              "text": "\ue030\ue030",
+              "color": "red",
+              "italic": false
+            }
+          ],
+          "!minecraft:food": {},
+          "minecraft:consumable": {
+            "consume_seconds": 1.6,
+            "has_consume_particles": true,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 48,
+                    "show_particles": false,
+                    "show_icon": false
+                  }
+                ]
+              }
+            ]
+          },
+          "minecraft:custom_data": {
+            "version": 1
+          }
+        }
+      }
+    }

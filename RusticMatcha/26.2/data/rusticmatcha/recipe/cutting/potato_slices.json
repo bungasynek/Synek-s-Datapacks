@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+        "condition": "fabric:any_mods_loaded",
+        "values": [ "moredelight" ]
+  }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "minecraft:potato"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 2,
+        "id": "rusticdelight:potato_slices"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

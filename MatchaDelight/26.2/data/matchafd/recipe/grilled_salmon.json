@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:foods/cooked_salmon",
+    "minecraft:sweet_berries",
+    "minecraft:bowl",
+    "farmersdelight:cabbage",
+    "#c:crops/onion"
+  ],
+  "result": {
+		"id": "farmersdelight:grilled_salmon",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+					"translate": "effect.kleispack.conduit_power",
+					"with": [
+						"8:00"
+					],
+					"color": "#7ec9e7",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+							{
+								"id": "minecraft:regeneration",
+								"amplifier": 2,
+								"duration": 120,
+								"show_particles": false,
+								"show_icon": false
+							},
+							{
+								"id": "minecraft:conduit_power",
+								"amplifier": 0,
+								"duration": 9600,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

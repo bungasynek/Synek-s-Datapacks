@@ -1,0 +1,59 @@
+
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "farmersdelight:wild_onions"
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "farmersdelight:onion",
+        "count": 1,
+        "components": {
+          "minecraft:lore": [
+            {
+              "text": "\ue032",
+              "color": "red",
+              "italic": false
+            }
+          ],
+          "!minecraft:food": {},
+          "minecraft:consumable": {
+            "consume_seconds": 1.6,
+            "has_consume_particles": true,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 12,
+                    "show_particles": false,
+                    "show_icon": false
+                  }
+                ]
+              }
+            ]
+          },
+          "minecraft:custom_data": {
+            "version": 1
+          }
+        }
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "id": "minecraft:lime_dye"
+      }
+    },
+    {
+      "count": 2,
+      "item": {
+        "id": "minecraft:magenta_dye"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

@@ -1,0 +1,59 @@
+{
+  "type": "farmersdelight:cooking",
+  "experience": 4.0,
+  "ingredients": [
+    "#c:foods/raw_beef",
+    "#c:bones",
+    "#c:crops/onion",
+    "#c:crops/cabbage",
+    "ubesdelight:fish_sauce_bottle",
+    "#c:crops/lemongrass"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "ubesdelight:bulalo",
+		"components": {
+			"minecraft:lore": [
+				{
+					"text": "\ue030\ue030\ue030\ue030\ue030\ue030\ue030",
+					"color": "red",
+					"italic": false
+				},
+        {
+					"text": "\ue030\ue030\ue030\ue030 (8:00)", 
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 96,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+								"id": "minecraft:health_boost",
+								"amplifier": 1,
+								"duration": 9600,
+								"show_particles": false,
+								"show_icon": true
+							}
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+	}
+}

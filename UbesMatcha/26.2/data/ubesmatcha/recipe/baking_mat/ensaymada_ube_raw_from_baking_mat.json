@@ -1,0 +1,110 @@
+{
+  "type": "ubesdelight:baking_mat",
+  "ingredients": [
+    "minecraft:shulker_spawn_egg",
+    "#c:tea_ingredients/sweet/weak",
+    "minecraft:beetroot_soup",
+    "#c:crops/ube"
+  ],
+  "processing_stages": [
+    "ubesdelight:ensaymada_ube_stage0",
+    "ubesdelight:ensaymada_ube_stage1",
+    "ubesdelight:ensaymada_ube_stage2",
+    "ubesdelight:ensaymada_ube_stage3"
+  ],
+  "result": [
+    {
+		"item": {
+		"count": 2,
+      "id": "ubesdelight:ensaymada_ube_raw",
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.poison",
+					"with": [
+						"0:30"
+					],
+					"color": "#48a53b",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:poison",
+						        "amplifier": 0,
+						        "duration": 600,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:poison",
+						        "amplifier": 0,
+						        "duration": 600,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}}
+  },
+    {
+		"item":{
+      "chance": 0.25,
+      "id": "ubesdelight:ensaymada_ube_raw",
+		"components": {
+			"minecraft:lore": [
+				{
+					"translate": "effect.kleispack.poison",
+					"with": [
+						"0:30"
+					],
+					"color": "#48a53b",
+					"italic": false
+				}
+			],
+			"!minecraft:food": {},
+			"minecraft:consumable": {
+				"consume_seconds": 1.6,
+				"has_consume_particles": true,
+				"on_consume_effects": [
+					{
+						"type": "minecraft:apply_effects",
+						"effects": [
+						    {
+						        "id": "minecraft:poison",
+						        "amplifier": 0,
+						        "duration": 600,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:poison",
+						        "amplifier": 0,
+						        "duration": 600,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
+						]
+					}
+				]
+			},
+			"minecraft:custom_data": {
+				"version": 1
+			}
+		}
+  }}
+  ],
+  "tool": "#c:tools/rolling_pin"
+}

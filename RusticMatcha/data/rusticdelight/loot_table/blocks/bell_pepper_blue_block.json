@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9,
+                "min": 1
+              }
+            },
+            {
+              "type": "minecraft:explosion_decay"
+            }
+          ],
+          "value": "rusticmatcha:food/rusticdelight/bell_pepper_blue_slice"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "rusticdelight:blocks/bell_pepper_blue_block"
+}
