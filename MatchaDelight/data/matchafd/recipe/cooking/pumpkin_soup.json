@@ -5,7 +5,7 @@
     ["farmersdelight:pumpkin_slice", "minecraft:breeze_rod"],
     "farmersdelight:cabbage_leaf",
     "#c:foods/raw_pork",
-    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+    "minecraft:beetroot_soup"
   ],
   "recipe_book_tab": "meals",
   "result": {

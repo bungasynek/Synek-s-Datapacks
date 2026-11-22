@@ -4,7 +4,7 @@
   "key": {
     "O": "farmersdelight:pie_crust",
     "c": "minecraft:cocoa_beans",
-    "m": ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "m": "minecraft:beetroot_soup",
     "x": "minecraft:sugar"
   },
   "pattern": [
@@ -26,7 +26,7 @@
 					"with": [
 						"8:00"
 					],
-					"color": "#00ff00",
+					"color": "#37cafb",
 					"italic": false
 				}
 			],
@@ -38,20 +38,20 @@
 					{
 						"type": "minecraft:apply_effects",
 						"effects": [
-							{
-								"id": "minecraft:regeneration",
-								"amplifier": 2,
-								"duration": 96,
-								"show_particles": false,
-								"show_icon": false
-							},
-							{
-								"id": "minecraft:speed",
-								"amplifier": 0,
-								"duration": 9600,
-								"show_particles": false,
-								"show_icon": false
-							}
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 96,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:speed",
+						        "amplifier": 0,
+						        "duration": 9600,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
 						]
 					}
 				]

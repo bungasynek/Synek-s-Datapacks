@@ -14,7 +14,7 @@
 		"components": {
 			"minecraft:lore": [
 				{
-					"text": "\ue030\ue030",
+					"text": "\ue030\ue030\ue030\ue030",
 					"color": "red",
 					"italic": false
 				},
@@ -35,20 +35,20 @@
 					{
 						"type": "minecraft:apply_effects",
 						"effects": [
-							{
-								"id": "minecraft:regeneration",
-								"amplifier": 2,
-								"duration": 48,
-								"show_particles": false,
-								"show_icon": false
-							},
-							{
-								"id": "minecraft:resistance",
-								"amplifier": 0,
-								"duration": 1800,
-								"show_particles": false,
-								"show_icon": false
-							}
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 96,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:resistance",
+						        "amplifier": 0,
+						        "duration": 1800,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
 						]
 					}
 				]

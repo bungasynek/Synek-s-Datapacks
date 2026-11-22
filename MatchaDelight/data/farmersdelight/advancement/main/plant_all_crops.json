@@ -165,9 +165,16 @@
     }
   },
   "display": {
-    "description": {
-      "translate": "advancements.farmersdelight.plant_all_crops.description"
-    },
+    "description": [
+      {
+				"text": "❤ ",
+				"color": "aqua"
+			},
+      {
+      "translate": "advancements.farmersdelight.plant_all_crops.description",
+      "color": "gray"
+    }
+  ],
     "frame": "challenge",
     "icon": {
       "id": "farmersdelight:cabbage"
@@ -235,5 +242,10 @@
   "rewards": {
     "experience": 100
   },
-  "sends_telemetry_event": true
+  "sends_telemetry_event": true,
+  "rewards": {
+		"loot": [
+			"matcha:advancement/crystal_heart_1"
+		]
+	}
 }

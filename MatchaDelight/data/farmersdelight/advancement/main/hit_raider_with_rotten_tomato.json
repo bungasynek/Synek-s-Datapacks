@@ -1,0 +1,45 @@
+{
+  "parent": "farmersdelight:main/harvest_ropelogged_tomato",
+  "criteria": {
+    "hamburger": {
+      "conditions":{
+          "items":
+          [
+            {
+              "items": "farmersdelight:hamburger"
+            }
+          ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": [
+      {
+				"text": "\uE00F ",
+				"color": "#ac7b5c"
+			},
+      {
+      "translate": "advancements.farmersdelight.hit_raider_with_rotten_tomato.description",
+      "color": "gray"
+    }
+  ],
+    "icon": {
+      "id": "farmersdelight:hamburger"
+    },
+    "title": {
+      "translate": "advancements.farmersdelight.hit_raider_with_rotten_tomato.title"
+    }
+  },
+  "requirements": [
+    [
+      "hamburger"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "rewards": {
+		"loot": [
+			"matcha:advancement/obol_1"
+		]
+	}
+}

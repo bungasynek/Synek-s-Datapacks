@@ -1,21 +1,16 @@
 {
   "parent": "farmersdelight:main/get_fd_seed",
   "criteria": {
-    "harvest_ropelogged_tomato": {
-      "conditions": {
-        "location": {
-          "type": "minecraft:location_check",
-          "predicate": {
-            "block": {
-              "blocks": "farmersdelight:tomatoes_on_rope",
-              "state": {
-                "age": "0"
-              }
+    "tomato_sauce": {
+      "conditions":{
+          "items":
+          [
+            {
+              "items": "farmersdelight:tomato_sauce"
             }
-          }
-        }
+          ]
       },
-      "trigger": "minecraft:default_block_use"
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
@@ -24,7 +19,7 @@
       "translate": "advancements.farmersdelight.harvest_ropelogged_tomato.description"
     },
     "icon": {
-      "id": "minecraft:beetroot"
+      "id": "farmersdelight:tomato_sauce"
     },
     "title": {
       "translate": "advancements.farmersdelight.harvest_ropelogged_tomato.title"
@@ -32,7 +27,7 @@
   },
   "requirements": [
     [
-      "harvest_ropelogged_tomato"
+      "tomato_sauce"
     ]
   ],
   "sends_telemetry_event": true

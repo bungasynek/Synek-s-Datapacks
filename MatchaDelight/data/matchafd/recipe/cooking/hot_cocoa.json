@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "experience": 1.0,
   "ingredients": [
-    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "minecraft:beetroot_soup",
     "minecraft:sugar",
     "minecraft:cocoa_beans",
     "minecraft:cocoa_beans"

@@ -1,0 +1,57 @@
+{
+  "parent": "farmersdelight:main/craft_knife",
+  "criteria": {
+    "ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:ham"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "smoked_ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:smoked_ham"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": [
+      {
+				"text": "\uE00F ",
+				"color": "#ac7b5c"
+			},
+      {
+      "translate": "advancements.farmersdelight.get_ham.description",
+      "color": "gray"
+    }
+  ],
+    "icon": {
+      "id": "farmersdelight:ham"
+    },
+    "title": 
+      {
+      "translate": "advancements.farmersdelight.get_ham.title"
+      }
+  },
+  "requirements": [
+    [
+      "ham",
+      "smoked_ham"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "rewards": {
+		"loot": [
+			"matcha:advancement/obol_1"
+		]
+	}
+}

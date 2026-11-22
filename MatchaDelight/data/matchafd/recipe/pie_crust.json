@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "M": ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "M": "minecraft:beetroot_soup",
     "w": "minecraft:shulker_spawn_egg"
   },
   "pattern": [

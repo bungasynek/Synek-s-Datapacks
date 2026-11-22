@@ -3,7 +3,7 @@
   "group": "fd_sweet_berry_cheesecake",
   "key": {
     "O": "farmersdelight:pie_crust",
-    "m": ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "m": "minecraft:beetroot_soup",
     "s": "minecraft:sweet_berries"
   },
   "pattern": [

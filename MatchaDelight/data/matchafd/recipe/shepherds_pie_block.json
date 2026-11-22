@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "minecraft:baked_potato",
-    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "minecraft:beetroot_soup",
     "minecraft:baked_potato",
     "#c:foods/cooked_mutton",
     "#c:foods/cooked_mutton",
@@ -25,7 +25,7 @@
 					"with": [
 						"4:00"
 					],
-					"color": "green",
+					"color": "#37cafb",
 					"italic": false
 				}
 			],

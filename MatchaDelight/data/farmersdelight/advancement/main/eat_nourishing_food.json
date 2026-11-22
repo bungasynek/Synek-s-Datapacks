@@ -1,0 +1,53 @@
+{
+  "parent": "farmersdelight:main/place_cooking_pot",
+  "criteria": {
+    "water_breathing": {
+      "conditions": {
+        "effects": {
+          "minecraft:water_breathing": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    },
+    "dolphins_grace": {
+      "conditions": {
+        "effects": {
+          "minecraft:dolphins_grace": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": 
+    [
+      {
+				"text": "\uE00F ",
+				"color": "#ac7b5c"
+			},
+      {
+      "translate": "advancements.farmersdelight.eat_nourishing_food.description",
+      "color": "gray"
+      }
+  ],
+    "icon": {
+      "id": "farmersdelight:fish_stew"
+    },
+    "title": {
+      "translate": "advancements.farmersdelight.eat_nourishing_food.title"
+    }
+  },
+  "requirements": [
+    [
+      "water_breathing",
+      "dolphins_grace"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "rewards": {
+		"loot": [
+			"matcha:advancement/obol_1"
+		]
+	}
+}

@@ -3,7 +3,7 @@
   "ingredients": [
     "minecraft:baked_potato",
     "#c:foods/cooked_beef",
-    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+    "minecraft:beetroot_soup"
   ],
   "result": {
 		"id": "farmersdelight:stuffed_potato",

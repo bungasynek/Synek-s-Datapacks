@@ -3,7 +3,7 @@
   "experience": 1.0,
   "ingredients": [
     "minecraft:rotten_flesh",
-    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"],
+    "minecraft:beetroot_soup",
     "#minecraft:eggs",
     "minecraft:sugar"
   ],

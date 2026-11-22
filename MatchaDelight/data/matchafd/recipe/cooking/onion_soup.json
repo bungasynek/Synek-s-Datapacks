@@ -5,7 +5,7 @@
     "#c:crops/onion",
     "#c:crops/onion",
     "#c:foods/bread",
-    ["minecraft:beetroot_soup", "farmersdelight:milk_bottle"]
+    "minecraft:beetroot_soup"
   ],
   "recipe_book_tab": "meals",
   "result": {
@@ -22,7 +22,7 @@
 					"with": [
 						"2:30"
 					],
-					"color": "#ba55d3",
+					"color": "#e65f33",
 					"italic": false
 				}
 			],
@@ -34,20 +34,20 @@
 					{
 						"type": "minecraft:apply_effects",
 						"effects": [
-							{
-								"id": "minecraft:regeneration",
-								"amplifier": 2,
-								"duration": 72,
-								"show_particles": false,
-								"show_icon": false
-							},
-							{
-								"id": "minecraft:strength",
-								"amplifier": 0,
-								"duration": 3000,
-								"show_particles": false,
-								"show_icon": false
-							}
+						    {
+						        "id": "minecraft:regeneration",
+						        "amplifier": 2,
+						        "duration": 72,
+						        "show_particles": false,
+						        "show_icon": false
+						    },
+						    {
+						        "id": "minecraft:strength",
+						        "amplifier": 0,
+						        "duration": 3000,
+						        "show_particles": false,
+						        "show_icon": true
+						    }
 						]
 					}
 				]
