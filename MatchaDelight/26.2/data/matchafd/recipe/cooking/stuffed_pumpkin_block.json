@@ -24,10 +24,7 @@
 					"italic": false
 				},
 				{
-					"translate": "effect.kleispack.resistance",
-					"with": [
-						"II 4:00"
-					],
+					"translate": "\ue03d II Resistance (4:00)",
 					"color": "blue",
 					"italic": false
 				}
