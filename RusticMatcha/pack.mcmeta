@@ -31,6 +31,10 @@
     {
       "namespace": "^rusticdelight$",
       "path": "^(recipe/.*|advancement/recipes/.*)$"
+    },
+    {
+      "namespace": "^farmersdelight$",
+      "path": "^(recipe/.*|advancement/recipes/.*)$"
     }
   ]
 }

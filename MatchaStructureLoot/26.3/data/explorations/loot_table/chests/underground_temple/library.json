@@ -95,12 +95,7 @@
                 "min": 20,
                 "max": 39
               }
-            },
-        {
-					"type": "minecraft:loot_table",
-					"value": "matcha:treasure/matchaloot",
-					"weight": 1
-				}
+            }
           ]
         }
       ]

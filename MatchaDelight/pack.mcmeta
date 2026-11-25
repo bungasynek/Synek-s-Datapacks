@@ -9,7 +9,7 @@
         "text": "\n"
             },
             {
-        "text": "Version 1.7",
+        "text": "Version 1.7.3",
         "color": "#908b8b"
             }
         ],
@@ -29,7 +29,7 @@
     "block": [
       {
       "namespace": "^farmersdelight$",
-      "path": "^(recipe/.*|advancement/recipes/food/.*|advancement/recipes/cooking/.*)$"
+      "path": "^(recipe/.*|advancement/recipes/food/.*|advancement/recipes/cooking/.*|advancement/recipes/misc/tomato_seeds.json)$"
     }
     ]
   }
