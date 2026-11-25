@@ -153,28 +153,6 @@
         {
           "type": "minecraft:empty",
           "weight": 14
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "modifier": {
-            "type": "minecraft:sequence",
-            "functions": [
-              {
-                "type": "minecraft:enchant_randomly",
-                "options": "#enderscape:transdimensional"
-              },
-              {
-                "type": "minecraft:filtered",
-                "item_filter": {
-                  "items": "minecraft:enchanted_book"
-                },
-                "on_fail": {
-                  "type": "minecraft:discard"
-                }
-              }
-            ]
-          }
         }
       ]
     }

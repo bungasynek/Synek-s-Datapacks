@@ -164,20 +164,6 @@
         {
           "type": "minecraft:empty",
           "weight": 14
-        },
-        {
-          "type": "minecraft:tag",
-          "items": "#enderscape:stronghold_additions",
-          "expand": true,
-          "modifier": {
-            "type": "minecraft:filtered",
-            "item_filter": {
-              "items": "#enderscape:stronghold_additions"
-            },
-            "on_fail": {
-              "type": "minecraft:discard"
-            }
-          }
         }
       ]
     }
