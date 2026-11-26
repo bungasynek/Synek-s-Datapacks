@@ -1,11 +1,13 @@
 {
   'id': 'SCMRP',
-  'version': 3,
+  'version': 5,
   'capabilities': [
     'FileFilter'
   ],
   'conf': {
-    'UseNewMatchasdelightStoveTexture': true
+    'UseNewMatchasdelightStoveTexture': true,
+	'UseMatchaDirtTextureinTRMT': true,
+  'UseMatchaBrickTextureForCDCounter': true
   }
 }
 	
