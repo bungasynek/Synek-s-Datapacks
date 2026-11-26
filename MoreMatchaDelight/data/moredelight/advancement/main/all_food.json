@@ -1,0 +1,408 @@
+{
+  "parent": "moredelight:main/get_chicken_sandwich_with_egg_and_tomato",
+  "criteria": {
+    "chicken_salad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:chicken_salad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chicken_sandwich_with_egg_and_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:chicken_sandwich_with_egg_and_tomato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chocolate_popsicle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:chocolate_popsicle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "egg_with_bacon_sandwich": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:egg_with_bacon_sandwich"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "hamburger_with_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:hamburger_with_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "loaded_hamburger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:loaded_hamburger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "porkchop_sandwich": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:porkchop_sandwich"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "simple_hamburger": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:simple_hamburger"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "steak_sandwich": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:steak_sandwich"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "toast": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "toast_with_chocolate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast_with_chocolate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "toast_with_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast_with_egg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "toast_with_glow_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast_with_glow_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "toast_with_honey": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast_with_honey"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "toast_with_sweet_berries": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:toast_with_sweet_berries"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "tomato_sandwich": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:tomato_sandwich"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "carrot_soup": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:carrot_soup"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_rice_with_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:cooked_rice_with_beef"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_rice_with_chicken_cuts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:cooked_rice_with_chicken_cuts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_rice_with_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:cooked_rice_with_porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creamy_pasta_with_chicken_cuts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:creamy_pasta_with_chicken_cuts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creamy_pasta_with_ham": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:creamy_pasta_with_ham"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_beef"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_chicken_cuts": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_chicken_cuts"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_egg_and_tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_egg_and_tomato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diced_potatoes_with_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:diced_potatoes_with_porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mashed_potatoes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:mashed_potatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "potato_salad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "moredelight:potato_salad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": [
+      {
+				"text": "❤ ",
+				"color": "aqua"
+			},
+      {
+      "translate": "moredelight.advancement.all_food.description",
+      "color": "gray"
+    }
+  ],
+    "frame": "challenge",
+    "icon": {
+      "id": "moredelight:stone_knife"
+    },
+    "title": {
+      "translate": "moredelight.advancement.all_food.title"
+    }
+  },
+  "requirements": [
+    [
+      "chocolate_popsicle"
+    ],
+    [
+      "steak_sandwich"
+    ],
+    [
+      "porkchop_sandwich"
+    ],
+    [
+      "egg_with_bacon_sandwich"
+    ],
+    [
+      "simple_hamburger"
+    ],
+    [
+      "hamburger_with_egg"
+    ],
+    [
+      "chicken_sandwich_with_egg_and_tomato"
+    ],
+    [
+      "loaded_hamburger"
+    ],
+    [
+      "porkchop_sandwich"
+    ],
+    [
+      "simple_hamburger"
+    ],
+    [
+      "steak_sandwich"
+    ],
+    [
+      "toast"
+    ],
+    [
+      "chicken_salad"
+    ],
+    [
+      "toast_with_chocolate"
+    ],
+    [
+      "toast_with_egg"
+    ],
+    [
+      "toast_with_glow_berries"
+    ],
+    [
+      "toast_with_glow_berries"
+    ],
+    [
+      "toast_with_sweet_berries"
+    ],
+    [
+      "toast_with_honey"
+    ],
+    [
+      "tomato_sandwich"
+    ],
+    [
+      "carrot_soup"
+    ],
+    [
+      "cooked_rice_with_beef"
+    ],
+    [
+      "cooked_rice_with_chicken_cuts"
+    ],
+    [
+      "cooked_rice_with_porkchop"
+    ],
+    [
+      "creamy_pasta_with_chicken_cuts"
+    ],
+    [
+      "creamy_pasta_with_ham"
+    ],
+    [
+      "diced_potatoes_with_beef"
+    ],
+    [
+      "diced_potatoes_with_chicken_cuts"
+    ],
+    [
+      "diced_potatoes_with_egg_and_tomato"
+    ],
+    [
+      "diced_potatoes_with_porkchop"
+    ],
+    [
+      "mashed_potatoes"
+    ],
+    [
+      "potato_salad"
+    ]
+  ],
+  "sends_telemetry_event": true,
+  "rewards": {
+		"loot": [
+			"matcha:advancement/crystal_heart_1"
+		]
+	}
+}

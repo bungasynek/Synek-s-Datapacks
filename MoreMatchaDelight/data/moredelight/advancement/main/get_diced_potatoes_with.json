@@ -46,7 +46,7 @@
     "description":
     [
       {
-				"text": "\uE00F \uE00F ",
+				"text": "\uE00F ",
 				"color": "#ac7b5c"
 			},
       {
@@ -73,7 +73,7 @@
   "sends_telemetry_event": true,
   "rewards": {
 		"loot": [
-			"matcha:advancement/obol_2"
+			"matcha:advancement/obol_1"
 		]
 	}
 }

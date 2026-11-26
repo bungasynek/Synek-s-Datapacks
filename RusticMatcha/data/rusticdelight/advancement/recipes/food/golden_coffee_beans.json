@@ -29,7 +29,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "rusticmatcha:golden_coffee_beans"
+        "recipes": "rusticmatcha:misc/golden_coffee_beans"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -43,7 +43,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rusticmatcha:golden_coffee_beans"
+      "rusticmatcha:misc/golden_coffee_beans"
     ]
   }
 }

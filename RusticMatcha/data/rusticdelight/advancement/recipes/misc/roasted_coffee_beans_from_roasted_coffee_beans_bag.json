@@ -19,7 +19,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipes": "rusticmatcha:blocks/roasted_coffee_beans_from_roasted_coffee_beans_bag"
+        "recipes": "rusticmatcha:crafting/roasted_coffee_beans_from_roasted_coffee_beans_bag"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -32,7 +32,7 @@
   ],
   "rewards": {
     "recipes": [
-      "rusticmatcha:blocks/roasted_coffee_beans_from_roasted_coffee_beans_bag"
+      "rusticmatcha:crafting/roasted_coffee_beans_from_roasted_coffee_beans_bag"
     ]
   }
 }
