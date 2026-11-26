@@ -1,0 +1,13 @@
+{
+  "amount": 5.0,
+  "random_sequence": "friendsandfoes:trade_set/beekeeper/level_1",
+  "trades": "#friendsandfoes:beekeeper/level_1",
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "friendsandfoes"
+      ]
+    }
+  ]
+}

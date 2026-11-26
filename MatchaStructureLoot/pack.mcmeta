@@ -12,7 +12,7 @@
         "text": "\n"
       },
       {
-        "text": "Version 4.2.1-hotfix",
+        "text": "Version 4.3",
         "color": "#908b8b"
       }
     ]
@@ -23,6 +23,11 @@
         "directory": "26.3",
         "min_format": 121,
         "max_format": 121
+      },
+      {
+        "directory": "26.2",
+        "min_format": 107,
+        "max_format": 107
       }
     ]
   }

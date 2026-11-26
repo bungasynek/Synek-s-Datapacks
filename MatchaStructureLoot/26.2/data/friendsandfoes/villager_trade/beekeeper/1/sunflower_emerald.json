@@ -1,0 +1,20 @@
+{
+  "gives": {
+    "id": "friendsandfoes:buttercup",
+    "count": 16
+  },
+  "max_uses": 999,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "xp": 15,
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "friendsandfoes"
+      ]
+    }
+  ]
+}

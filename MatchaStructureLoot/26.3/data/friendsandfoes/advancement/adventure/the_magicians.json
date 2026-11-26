@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:adventure/voluntary_exile",
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.friendsandfoes.adventure.the_magicians.title"
+    },
+    "description": [
+      {
+        "text": " ",
+        "color": "#ac7b5c"
+      },
+      {
+        "translate": "advancements.friendsandfoes.adventure.the_magicians.description",
+        "color": "gray"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "killed_evoker": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:evoker"
+          }
+        }
+      }
+    },
+    "killed_iceologer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "friendsandfoes:iceologer"
+          }
+        }
+      }
+    },
+    "killed_illusioner": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "friendsandfoes:illusioner"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_evoker"
+    ],
+    [
+      "killed_iceologer"
+    ],
+    [
+      "killed_illusioner"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "matcha:advancement/obol_2"
+    ]
+  },
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "friendsandfoes"
+      ]
+    }
+  ]
+}

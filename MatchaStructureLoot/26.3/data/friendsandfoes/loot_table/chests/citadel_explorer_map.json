@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.1666
+          },
+          "modifier": [
+            {
+              "type": "minecraft:exploration_map",
+              "destination": "#friendsandfoes:on_citadel_maps",
+              "decoration": "friendsandfoes:citadel",
+              "skip_existing_chunks": false
+            },
+            {
+              "type": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.friendsandfoes.citadel"
+              },
+              "target": "item_name"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "friendsandfoes"
+      ]
+    }
+  ]
+}
