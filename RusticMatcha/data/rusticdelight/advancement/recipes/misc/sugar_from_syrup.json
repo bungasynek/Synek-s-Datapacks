@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_syrup_foods"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_syrup": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rusticdelight:syrup"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "rusticmatcha:misc/sugar_from_syrup"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_syrup"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rusticmatcha:misc/sugar_from_syrup"
+    ]
+  }
+}

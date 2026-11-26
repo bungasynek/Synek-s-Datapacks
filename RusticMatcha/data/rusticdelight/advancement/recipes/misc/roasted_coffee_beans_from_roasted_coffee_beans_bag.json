@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "rusticdelight:config_boolean",
+      "settingId": "enable_coffee"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_roasted_coffee_beans_bag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rusticdelight:roasted_coffee_beans_bag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "rusticmatcha:blocks/roasted_coffee_beans_from_roasted_coffee_beans_bag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_roasted_coffee_beans_bag"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rusticmatcha:blocks/roasted_coffee_beans_from_roasted_coffee_beans_bag"
+    ]
+  }
+}
