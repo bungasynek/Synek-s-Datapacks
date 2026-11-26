@@ -2,11 +2,14 @@
   "fabric:load_conditions": [
     {
       "condition": "fabric:not",
-      "value":{
-        "condition": "fabric:any_mods_loaded",
-        "values": [ "rusticdelight" ]
+      "value": {
+        "condition": "fabric:all_mods_loaded",
+        "values": [
+          "rusticdelight",
+          "moredelight"
+        ]
+      }
     }
-  }
   ],
   "type": "farmersdelight:cutting",
   "ingredients": [
@@ -14,6 +17,7 @@
   ],
   "result": [
     {
+      "count": 2,
 		"item":{
       "id": "moredelight:diced_potatoes",
       "components": {
